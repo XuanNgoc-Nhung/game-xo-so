@@ -1,0 +1,2847 @@
+﻿.move {
+    background-position: bottom;
+}
+
+.cancel {
+    background-image: url(/images/vn/lottery/btn_cancel.jpg);
+    width: 66px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.confirm {
+    background-image: url(/images/vn/lottery/btn_confirm.jpg);
+    width: 113px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#Sub_LtStarRow49, #Sub_LtStarRow39, #Sub_LtStarRow38, #Sub_LtStarRow40, #Sub_LtStarRow {
+    background-image: url(/images/vn/lottery/btn_234A.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarTwoInSp49, #Sub_LtStarTwoInSp {
+    background-image: url(/images/vn/lottery/btn_LtStar2InSp.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarThreeInTwo49, #Sub_LtStarThreeInTwo39, #Sub_LtStarThreeInTwo38, #Sub_LtStarThreeInTwo40, #Sub_LtStarThreeInTwo {
+    background-image: url(/images/vn/lottery/btn_LtStar3In2.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarRowColum49, #Sub_LtStarRowColum39, #Sub_LtStarRowColum38, #Sub_LtStarRowColum40, #Sub_LtStarRowColum {
+    background-image: url(/images/vn/lottery/btn_LtStar2Colum.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarRowRow49, #Sub_LtStarRowRow39, #Sub_LtStarRowRow38, #Sub_LtStarRowRow40, #Sub_LtStarRowRow {
+    background-image: url(/images/vn/lottery/btn_LtStar2Row.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarColum49, #Sub_LtStarColum39, #Sub_LtStarColum38, #Sub_LtStarColum40, #Sub_LtStarColum {
+    background-image: url(/images/vn/lottery/btn_234B.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+#Sub_LtStarNormal49, #Sub_LtStarNormal39, #Sub_LtStarNormal38, #Sub_LtStarNormal40, #Sub_LtStarNormal {
+    background-image: url(/images/vn/lottery/btn_234C.jpg);
+    width: 85px;
+    height: 22px;
+}
+
+input[id^="rblK2Type"]:checked + label{
+    background-position:bottom;
+}
+
+input[id^="rbllType"]:checked + label{
+    background-position:bottom;
+}
+
+.rblK2Type_101 + label
+{
+    background-image: url(/images/vn/lottery/btn_TH_1.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}   
+
+.rblK2Type_102 + label{
+    background-image: url(/images/vn/lottery/btn_TH_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+
+}
+.rblK2Type_103 + label {
+    background-image: url(/images/vn/lottery/btn_TH_3.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_104 + label {
+    background-image: url(/images/vn/lottery/btn_TH_4.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_105 + label {
+    background-image: url(/images/vn/lottery/btn_TH_5.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_106 + label {
+    background-image: url(/images/vn/lottery/btn_TH_6.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_107 + label {
+    background-image: url(/images/vn/lottery/btn_TH_7.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_115 + label {
+    background-image: url(/images/vn/lottery/btn_TH_15.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_116 + label {
+    background-image: url(/images/vn/lottery/btn_TH_16.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_117 + label {
+    background-image: url(/images/vn/lottery/btn_TH_17.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_115_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_15_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_116_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_16_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_117_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_17_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_sp + label {
+    background-image: url(/images/vn/lottery/btn_TH_Sp.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rblK2Type_Zodiac_1 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_1.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rblK2Type_Zodiac_0 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_0.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Zodiac_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Zodiac_3 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_3.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Zodiac_4 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_4.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Zodiac_5 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_5.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Zodiac_6 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiac_6.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacIn_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacIn_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacIn_3 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacIn_3.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacIn_4 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacIn_4.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacOut_2 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacOut_2.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacOut_3 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacOut_3.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_ZodiacOut_4 + label {
+    background-image: url(/images/vn/lottery/btn_TH_zodiacOut_4.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNum_0 + label {
+    background-image: url(/images/vn/lottery/btn_tail1Off.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNum_off2 + label {
+    background-image: url(/images/vn/lottery/btn_tail2Off.jpg);
+    width: 85px;
+    height: 22px;
+    display: inline-block;
+}
+
+.rbllType_TailNum_1 + label {
+    background-image: url(/images/vn/lottery/btn_tail1.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumIn_2 + label {
+    background-image: url(/images/vn/lottery/btn_tail2RowIn.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumIn_3 + label {
+    background-image: url(/images/vn/lottery/btn_tail3RowIn.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumIn_4 + label {
+    background-image: url(/images/vn/lottery/btn_tail4RowIn.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumOut_2 + label {
+    background-image: url(/images/vn/lottery/btn_tail2RowOff.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumOut_3 + label {
+    background-image: url(/images/vn/lottery/btn_tail3RowOff.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_TailNumOut_4 + label {
+    background-image: url(/images/vn/lottery/btn_tail4RowOff.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_Parley + label {
+    background-image: url(/images/vn/lottery/btn_Parley.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_5Digits + label {
+    background-image: url(/images/vn/lottery/btn_digits_5.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_6Digits + label {
+    background-image: url(/images/vn/lottery/btn_digits_6.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_7Digits + label {
+    background-image: url(/images/vn/lottery/btn_digits_7.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_In1_5 + label {
+    background-image: url(/images/vn/lottery/btn_In1_5.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_In1_6 + label {
+    background-image: url(/images/vn/lottery/btn_In1_6.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_In1_7 + label {
+    background-image: url(/images/vn/lottery/btn_In1_7.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_In1_8 + label {
+    background-image: url(/images/vn/lottery/btn_In1_8.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+.rbllType_In1_9 + label {
+    background-image: url(/images/vn/lottery/btn_In1_9.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_In1_10 + label {
+    background-image: url(/images/vn/lottery/btn_In1_10.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_5 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_5.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_6 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_6.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_7 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_7.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_8 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_8.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_9 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_9.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.rbllType_InNone_10 + label {
+    background-image: url(/images/vn/lottery/btn_InNone_10.jpg);
+    width: 85px;
+    height: 22px;
+    display:inline-block;
+}
+
+.btn_chgCard {
+    background-image: url(/images/vn/lottery/btn_chgCard.png);
+    width: 84px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.btn_betConfirm {
+    background-image: url(/images/vn/common/btn_betListBet.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_betConfirm:hover {
+        background-position: bottom;
+    }
+
+.btn_betListSureAuto {
+    background-image: url(/images/vn/anyTime/btn_betListSureAuto.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_betListSureAuto:hover {
+        background-position: bottom;
+    }
+
+.btn_betListSureAutoNone {
+    background-image: url(/images/vn/anyTime/btn_autoBetNone.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: default;
+}
+
+.btn_betConfirmNone {
+    background-image: url(/images/vn/common/btn_betListBetNone.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: default;
+}
+
+.btn_betListSure {
+    background-image: url(/images/vn/common/btn_betListSure.jpg);
+    width: 113px;
+    height: 30px;
+}
+
+    .btn_betListSure:hover {
+        background-position: bottom;
+    }
+
+.btn_betCancel {
+    background-image: url(/images/vn/common/btn_betListCancel.jpg);
+    width: 66px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_betCancel:hover {
+        background-position: bottom;
+    }
+
+.btn_betClose {
+    background-image: url(/images/vn/common/btn_betClose.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn_betCloseAuto {
+    background-image: url(/images/vn/common/btn_betCloseAuto.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_betCloseAuto:hover {
+        background-position: bottom;
+    }
+
+.btn_cnHReBet {
+    background-image: url(/images/vn/happy/btn_cnHReBet.png);
+    width: 140px;
+    height: 35px;
+}
+
+.btn_cnATWebSite {
+    background-image: url(/images/vn/anyTime/btn_cnATWebSite.png);
+    width: 82px;
+    height: 26px;
+}
+
+.btn_ltStarRowRandom {
+    background-image: url(/images/vn/lottery/btn_ltStarRowRandom.png);
+    width: 111px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.btn_ltStarSp23 {
+    background-image: url(/images/vn/lottery/btn_ltStarSp23.jpg);
+    width: 105px;
+    height: 22px;
+}
+
+.btn_ltStarSp3 {
+    background-image: url(/images/vn/lottery/btn_ltStarSp3.jpg);
+    width: 105px;
+    height: 22px;
+}
+
+.btn_ltStarSpSetRow {
+    background-image: url(/images/vn/lottery/btn_ltStarSpSetRow.jpg);
+    width: 105px;
+    height: 22px;
+}
+
+.btn_ltStarSpSetColumn {
+    background-image: url(/images/vn/lottery/btn_ltStarSpSetColumn.jpg);
+    width: 105px;
+    height: 22px;
+}
+
+.icon_cnATW {
+    background-image: url(/images/vn/anyTime/icon_cnATW.jpg);
+    width: 49px;
+    height: 49px;
+}
+
+.icon_cnATT {
+    background-image: url(/images/vn/anyTime/icon_cnATT.jpg);
+    width: 49px;
+    height: 49px;
+}
+
+.icon_cnATH {
+    background-image: url(/images/vn/anyTime/icon_cnATH.jpg);
+    width: 49px;
+    height: 49px;
+}
+
+.icon_cnATTen {
+    background-image: url(/images/vn/anyTime/icon_cnATTen.jpg);
+    width: 49px;
+    height: 49px;
+}
+
+.icon_cnATB {
+    background-image: url(/images/vn/anyTime/icon_cnATB.jpg);
+    width: 49px;
+    height: 49px;
+}
+
+.icon_cnATCombine {
+    background-image: url(/images/vn/anyTime/icon_cnATCombine.jpg);
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.icon_subTopLive {
+    background-image: url(/images/vn/main/icon_subTopLive.png);
+}
+
+.icon_live {
+    background-image: url(/images/vn/main/icon_live.png);
+    width: 40px;
+    height: 20px;
+}
+
+.icon_official {
+    background-image: url(/images/vn/main/icon_official.png);
+    width: 40px;
+    height: 20px;
+    /*position:absolute;
+    top:4px;
+    right:2px;*/
+     margin:3px auto;
+}
+
+.pic_ballRf01 {
+    background-image: url(/images/vn/lottery/pic_ballRf01.png);
+    width: 212px;
+    height: 333px;
+}
+
+.pic_ballRf02 {
+    background-image: url(/images/vn/lottery/pic_ballRf02.png);
+    width: 212px;
+    height: 406px;
+}
+
+.pic_ballRf03 {
+    background-image: url(/images/vn/lottery/pic_ballRf03.png);
+    width: 212px;
+    height: 463px;
+}
+
+.pic_ballRf04 {
+    background-image: url(/images/vn/lottery/pic_ballRf04.png);
+    width: 212px;
+    height: 312px;
+}
+
+.pic_ballRf40Tw01 {
+    background-image: url(/images/vn/lottery/pic_ballRf40Tw01.png);
+    width: 212px;
+    height: 246px;
+}
+
+.pic_ballRf40Tw02 {
+    background-image: url(/images/vn/lottery/pic_ballRf40Tw02.png);
+    width: 212px;
+    height: 319px;
+}
+
+.pic_ballRf40Tw03 {
+    background-image: url(/images/vn/lottery/pic_ballRf40Tw03.png);
+    width: 212px;
+    height: 318px;
+}
+
+.pic_ballRf40Tw04 {
+    background-image: url(/images/vn/lottery/pic_ballRf40Tw04.png);
+    width: 209px;
+    height: 313px;
+}
+
+.pic_ballRfTw01 {
+    background-image: url(/images/vn/lottery/pic_ballRfTw01.png);
+    width: 212px;
+    height: 246px;
+}
+
+.pic_ballRfTw02 {
+    background-image: url(/images/vn/lottery/pic_ballRfTw02.png);
+    width: 212px;
+    height: 319px;
+}
+
+.pic_ballRfTw03 {
+    background-image: url(/images/vn/lottery/pic_ballRfTw03.png);
+    width: 212px;
+    height: 318px;
+}
+
+.pic_ballRfTw04 {
+    background-image: url(/images/vn/lottery/pic_ballRfTw04.png);
+    width: 209px;
+    height: 313px;
+}
+
+.pic_ballRf38Tw01 {
+    background-image: url(/images/vn/lottery/pic_ballRf38Tw01.png);
+    width: 212px;
+    height: 246px;
+}
+
+.pic_ballRf38Tw02 {
+    background-image: url(/images/vn/lottery/pic_ballRf38Tw02.png);
+    width: 212px;
+    height: 319px;
+}
+
+.pic_ballRf38Tw03 {
+    background-image: url(/images/vn/lottery/pic_ballRf38Tw03.png);
+    width: 212px;
+    height: 318px;
+}
+
+.pic_ballRf38Tw04 {
+    background-image: url(/images/vn/lottery/pic_ballRf38Tw04.png);
+    width: 209px;
+    height: 313px;
+}
+
+.icon_numbA {
+    background-image: url(/images/vn/lottery/icon_numbA.jpg);
+    width: 45px;
+    height: 22px;
+}
+
+.icon_numbZ {
+    background-image: url(/images/vn/lottery/icon_numbZ.jpg);
+    width: 45px;
+    height: 22px;
+}
+
+.icon_numbO {
+    background-image: url(/images/vn/lottery/icon_numbO.jpg);
+    width: 45px;
+    height: 22px;
+}
+
+.icon_lineNumb {
+    background-image: url(/images/vn/lottery/icon_lineNumb.jpg);
+    width: 45px;
+    height: 22px;
+}
+
+.icon_stake {
+    background-image: url(/images/vn/lottery/icon_stake.jpg);
+    width: 45px;
+    height: 22px;
+}
+
+.icon_big {
+    background-image: url(/images/vn/lottery/icon_big.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_sixBig {
+    background-image: url(/images/vn/lottery/icon_sixBig.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_small {
+    background-image: url(/images/vn/lottery/icon_small.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_sixSmall {
+    background-image: url(/images/vn/lottery/icon_sixSmall.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comBig {
+    background-image: url(/images/vn/lottery/icon_comBig.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comSmall {
+    background-image: url(/images/vn/lottery/icon_comSmall.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comOdd {
+    background-image: url(/images/vn/lottery/icon_comOdd.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comEven {
+    background-image: url(/images/vn/lottery/icon_comEven.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_odd {
+    background-image: url(/images/vn/lottery/icon_odd.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_even {
+    background-image: url(/images/vn/lottery/icon_even.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_big38 {
+    background-image: url(/images/vn/lottery/icon_big38Tw.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_big40 {
+    background-image: url(/images/vn/lottery/icon_big40Tw.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_big539 {
+    background-image: url(/images/vn/lottery/icon_big539.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_small40 {
+    background-image: url(/images/vn/lottery/icon_small40Tw.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_small539 {
+    background-image: url(/images/vn/lottery/icon_small539.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comBig539 {
+    background-image: url(/images/vn/lottery/icon_comBig539.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_comSmall539 {
+    background-image: url(/images/vn/lottery/icon_comSmall539.png);
+    width: 74px;
+    height: 34px;
+    display: block;
+}
+
+.icon_subTopMember {
+    background-image: url(/images/vn/main/icon_subTopMemBetLimit.png);
+}
+
+.icon_topTeachGuild {
+    background-image: url(/images/vn/main/icon_topTeachGuild.png);
+}
+
+.icon_subTopNews {
+    background-image: url(/images/vn/main/icon_subTopNews.png);
+}
+
+.icon_subTopRule {
+    background-image: url(/images/vn/main/icon_subTopRule.png);
+}
+
+.pic_star234 {
+    background-image: url(/images/vn/main/pic_star234.jpg);
+    width: 270px;
+    height: 30px;
+    float: right;
+    margin-right: 72px;
+}
+
+.icon_subTopRf {
+    background-image: url(/images/vn/main/icon_subTopRf.png);
+}
+
+.icon_subTopWinList {
+    background-image: url(/images/vn/main/icon_subTopWinList.png);
+}
+
+.btn_topMarkSix {
+    background-image: url(/images/vn/main/btn_topMarkSix.png);
+    width: 125px;
+    height: 35px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.btn_topPK10 {
+    background-image: url(/images/vn/main/btn_topPk10.png);
+    width: 125px;
+    height: 35px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.btn_markSix {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_markSix.png);
+}
+
+.btn_marksixTwLotto {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_marksixTwLotto.png);
+}
+
+.btn_TS {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_TS.png);
+}
+
+.btn_TwAll {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_TwAll.png);
+}
+
+.btn_TwLotto {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_TwLotto.png);
+}
+
+.btn_TwFortuneLotto {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_TwFortune.png);
+}
+
+.btn_TwLotto539 {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_TwLotto539.png);
+}
+
+.btn_anyTime {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_anyTime.png);
+}
+
+.btn_pk10 {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_pk10.png);
+}
+
+.btn_Keno {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_topKeno.png);
+}
+
+.btn_SicBo {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_topSicBo.png);
+}
+
+.btn_vnLotto {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_vnLotto.png);
+}
+
+.btn_elevenPickFive {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_elevenPickFive.png);
+}
+
+.btn_hr {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_hr.png);
+}
+
+.btn_TwLotto38 {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_Tw38.png);
+}
+
+.btn_dogRacing {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_dr.png);
+}
+
+.btn_champion {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_championGame.png);
+}
+
+.btn_normailRule {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_normailRule.png);
+}
+
+.btn_allNews {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_allNews.png);
+}
+
+.btn_systemNews {
+    width: 100px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_systemNews.png);
+}
+
+.btn_kenoSelect2Star {
+    width: 125px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_kenoSelect2Star.png);
+}
+
+.btn_kenoSelect3Star {
+    width: 125px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_kenoSelect3Star.png);
+}
+
+.btn_kenoSelect4Star {
+    width: 125px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_kenoSelect4Star.png);
+}
+
+.btn_kenoSelect5Star {
+    width: 125px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_kenoSelect5Star.png);
+}
+
+.btn_kenoCalculate {
+    width: 125px;
+    height: 35px;
+    float: left;
+    display: block;
+    background-image: url(/images/vn/main/btn_kenoCalculate.png);
+}
+
+.btn_onlineServ {
+    background-image: url(/images/vn/main/btn_onlineServ.png);
+    width: 116px;
+    height: 28px;
+    display: block;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+    .btn_onlineServ:hover {
+        background-position: bottom;
+    }
+
+.btn_live {
+    background-image: url(/images/vn/main/btn_live.png);
+    width: 116px;
+    height: 28px;
+    display: block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+    .btn_live:hover {
+        background-position: bottom;
+    }
+
+.btn_pk10Oficial {
+    background-image: url(/images/vn/pk10/btn_pk10Oficial.png);
+    width: 104px;
+    height: 60px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.btn_TopBig {
+    background-image: url(/images/vn/pk10/btn_TopBig.jpg);
+    width: 79px;
+    height: 34px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    padding-top: 1px;
+    color: #a81c1f;
+    float: left;
+}
+
+    .btn_TopBig:hover {
+        background-position: bottom;
+        color: #fff;
+    }
+
+.btn_TopSmall {
+    background-image: url(/images/vn/pk10/btn_TopSmall.jpg);
+    width: 79px;
+    height: 34px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    padding-top: 1px;
+    color: #a81c1f;
+    float: left;
+}
+
+    .btn_TopSmall:hover {
+        background-position: bottom;
+        color: #fff;
+    }
+
+.btn_TopOdd {
+    background-image: url(/images/vn/pk10/btn_TopOdd.jpg);
+    width: 79px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    color: #a81c1f;
+    float: left;
+}
+
+    .btn_TopOdd:hover {
+        background-position: bottom;
+        color: #fff;
+    }
+
+.btn_TopEven {
+    background-image: url(/images/vn/pk10/btn_TopEven.jpg);
+    width: 79px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    color: #a81c1f;
+    float: left;
+}
+
+    .btn_TopEven:hover {
+        background-position: bottom;
+        color: #fff;
+    }
+
+.btn_BtmSmall, .btn_BtmBig, .btn_BtmEven, .btn_BtmOdd, .btn_BtmDragon, .btn_BtmTiger {
+    margin: 3px 0px 0px 1px;
+    width: 122px;
+    height: 48px;
+    display: block;
+    float: left;
+    color: #a81c1f;
+    font-size: 22px;
+    text-align: right;
+    text-decoration: none;
+    line-height: 54px;
+}
+    .btn_BtmSmall span, .btn_BtmBig span, .btn_BtmEven span, .btn_BtmOdd span, .btn_BtmDragon span, .btn_BtmTiger span {
+        margin-left: 64px;       
+        float: left;     
+    }
+
+.btn_BtmSmall {
+    background-image: url(/images/vn/pk10/btn_BtmSmall.jpg);
+}
+
+.btn_BtmBig {
+    background-image: url(/images/vn/pk10/btn_BtmBig.jpg);
+}
+
+.btn_BtmEven {
+    background-image: url(/images/vn/pk10/btn_BtmEven.jpg);
+}
+
+.btn_BtmOdd {
+    background-image: url(/images/vn/pk10/btn_BtmOdd.jpg);
+}
+
+.btn_BtmDragon {
+    background-image: url(/images/vn/pk10/btn_BtmDragon.jpg);
+}
+
+.btn_BtmTiger {
+    background-image: url(/images/vn/pk10/btn_BtmTiger.jpg);
+}
+
+.btnSearch {
+    margin-right: 5px;
+    border: 0;
+    background-image: url(/images/vn/main/btn_winLsitSearch.png);
+    width: 40px;
+    height: 20px;
+}
+
+    .btnSearch:hover {
+        background-position: bottom;
+    }
+
+.btnMyPurse {
+    width: 79px;
+    height: 31px;
+    background-image: url(/images/vn/main/mywellet.png);
+    cursor: pointer;
+    display: block;
+}
+
+.btnGoMyPurse {
+    width: 113px;
+    height: 30px;
+    background-image: url(/images/vn/main/btn_myWallet.jpg);
+}
+
+    .btnGoMyPurse:hover {
+        background-position: bottom;
+    }
+
+.icon_markSix {
+    background-image: url(/images/vn/main/icon_markSix_m.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_mbTwLotto {
+    background-image: url(/images/vn/main/icon_mbTwLotto.png);
+    background-size: auto 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_mbTs {
+    background-image: url(/images/vn/main/icon_mbTs.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_mbTw539 {
+    background-image: url(/images/vn/main/icon_mbTw539.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_mbTw38 {
+    background-image: url(/images/vn/main/icon_mbTw38.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_mbTwFortune {
+    background-image: url(/images/vn/main/icon_mbTwFortune.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_At {
+    background-image: url(/images/vn/main/icon_At.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_ElevenPickFive {
+    background-image: url(/images/vn/main/icon_ElevenPickFive.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_NSB {
+    background-image: url(/images/vn/main/icon_NSB.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_pk10m {
+    background-image: url(/images/vn/main/icon_pk10m.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_Keno {
+    background-image: url(/images/vn/main/icon_keno.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_sicbo {
+    background-image: url(/images/vn/main/icon_sicbo.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_Dr {
+    background-image: url(/images/vn/main/icon_DogRacing.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_Hr {
+    background-image: url(/images/vn/main/icon_HorseRacing.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_VnLotto {
+    background-image: url(/images/vn/main/icon_VnLotto_m.png);
+    background-size: auto 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_comfirmBet {
+    background-image: url(/images/vn/main/icon_comfirmBet.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_refOdds {
+    background-image: url(/images/vn/main/icon_refOdds.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_memberData {
+    background-image: url(/images/vn/main/icon_memBetLimit.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_news {
+    background-image: url(/images/vn/main/icon_news.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_rule {
+    background-image: url(/images/vn/main/icon_rule.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_winList {
+    background-image: url(/images/vn/main/icon_winList.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_webSite {
+    background-image: url(/images/vn/main/icon_webSite.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_realTimeResult {
+    background-image: url(/images/vn/main/icon_realTimeResult.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn_autoBet {
+    padding: 0px;
+    border: 0px;
+    background: none;
+    background-image: url(/images/vn/common/btn_autoBet.png);
+    width: 126px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+}
+
+    .btn_autoBet:hover {
+        background-position: bottom;
+    }
+
+.btn_kenoLsitSure {
+    padding: 0px;
+    border: 0px;
+    background: none;
+    background-image: url(/images/vn/keno/btn_kenoLsitSure.jpg);
+    width: 53px;
+    height: 23px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+    .btn_kenoLsitSure:hover {
+        background-position: bottom;
+    }
+
+.btn_kenoLsitCancel {
+    padding: 0px;
+    border: 0px;
+    background: none;
+    background-image: url(/images/vn/keno/btn_kenoLsitCancel.jpg);
+    width: 53px;
+    height: 23px;
+    cursor: pointer;
+}
+
+    .btn_kenoLsitCancel:hover {
+        background-position: bottom;
+    }
+
+.btn_kenoEnter {
+    padding: 0px;
+    border: 0px;
+    background: none;
+    background-image: url(/images/vn/keno/btn_kenoEnter.png);
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 115px;
+}
+
+    .btn_kenoEnter:hover {
+        background-position: bottom;
+    }
+
+.autoBetClose {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/main/btn_autoBetClose.jpg);
+    cursor: pointer;
+    float: right;
+    margin-right: 8px;
+    width: 113px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+    .autoBetClose:hover {
+        background-position: bottom;
+    }
+
+.icon_pk10HisNum {
+    background-image: url(/images/vn/pk10/icon_pk10HisNum.png);
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 18px;
+    float: left;
+    margin: 5px 10px 0px 55px;
+}
+
+.btn_kenoUnitEnter {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/keno/btn_kenoUnitEnter.png);
+    background-size: 70px auto;
+    width: 70px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: -25px;
+}
+
+    .btn_kenoUnitEnter:hover {
+        background-position: bottom;
+    }
+
+.btn_RepeatbetClose {
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 0 none;
+    cursor: pointer;
+    height: 32px;
+    margin-right: 0;
+    margin-top: 9px;
+    width: 64px;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+    .btn_RepeatbetClose:hover {
+        background-color: #f1f1f1;
+    }
+
+.btn_RepeatbetConfirm {
+    background-color: #336AAB;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0 none;
+    cursor: pointer;
+    height: 32px;
+    margin-top: 9px;
+    width: 124px;
+    letter-spacing: -1.4px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+    .btn_RepeatbetConfirm:hover {
+        background-color: #4C8FDF;
+    }
+
+.btn_RepeatbetConfirmNone {
+    cursor: default;
+    background-color: gray;
+}
+
+    .btn_RepeatbetConfirmNone:hover {
+        background-color: gray;
+    }
+
+.btn_RepeatBet {
+    background-image: url("/images/vn/common/btn_reBetPrev.jpg");
+    cursor: pointer;
+    height: 30px;
+    width: 149px;
+    display: block;
+    float: left;
+}
+
+    .btn_RepeatBet:hover {
+        background-position: center bottom;
+    }
+
+.btn_betConfirmNone {
+    background-image: url(/images/vn/common/btn_hrBetListBetNone.jpg);
+    width: 113px;
+    height: 30px;
+    cursor: default;
+}
+
+/*.btn_clearCache
+{
+    border:0;
+    background-image:url(/images/vn/main/btn_clearTempData.png);
+    width:114px;
+    height:23px;
+    cursor:pointer;
+    display:block;
+}*/
+
+.btn_zodiacCn_0, .btn_tailnumCn {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_0.png);
+    width: 98px;
+    height: 49px;
+}
+
+.btn_zodiacCn_1 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_1.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_2 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_2.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_3 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_3.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_4 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_4.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_5 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_5.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_6 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_6.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_7 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_7.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_8 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_8.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_9 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_9.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_10 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_10.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_11 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_11.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_zodiacCn_12 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_zodiacCn_12.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_0 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_0.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_1 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_1.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_2 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_2.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_3 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_3.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_4 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_4.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_5 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_5.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_6 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_6.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_7 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_7.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_8 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_8.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_tailnumCn_9 {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_tailNum_9.png);
+    width: 98px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.btn_multiOdd {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiOdd.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiEven {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiEven.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiBig {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiBig.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiSmall {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiSmall.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiRed {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiRed.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiBlue {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiBlue.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn_multiGreen {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/lottery/btn_multiGreen.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+/*.chipSet {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/main/icon_chipSet.png);
+    background-size: 40px auto;
+    width: 40px;
+    height: 37px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+    .chipSet:hover {
+        background-position: bottom;
+    }*/
+
+.btn_chipComfirm {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/main/btn_chipComfirm.jpg);
+    width: 66px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_chipComfirm:hover {
+        background-position: bottom;
+    }
+
+.btn_chipClear {
+    background: none;
+    border: 0px;
+    background-image: url(/images/vn/main/btn_chipClear.jpg);
+    width: 66px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .btn_chipClear:hover {
+        background-position: bottom;
+    }
+
+/* report */
+.btn_return {
+    width: 59px;
+    height: 29px;
+    background-image: url(/images/vn/report/btn_return.gif);
+    float: right;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.Reflshzh {
+    display: block;
+    cursor: pointer;
+    width: 73px;
+    height: 21px;
+    background-image: url(/images/vn/report/Reflsh.jpg);
+    float: right;
+    margin-top: 8px;
+}
+
+.btn_listUpPage {
+    display: block;
+    cursor: pointer;
+    width: 95px;
+    height: 21px;
+    background-image: url(/images/vn/report/btn_listUpPage.gif);
+}
+
+    .btn_listUpPage:hover {
+        background-position: bottom;
+    }
+
+.btn_listFPage {
+    display: block;
+    cursor: pointer;
+    width: 95px;
+    height: 21px;
+    background-image: url(/images/vn/report/btn_listFPage.gif);
+}
+
+    .btn_listFPage:hover {
+        background-position: bottom;
+    }
+
+.btn_jumpTo {
+    display: block;
+    cursor: pointer;
+    width: 73px;
+    height: 21px;
+    background-image: url(/images/vn/report/btn_jumpTo.gif);
+}
+
+    .btn_jumpTo:hover {
+        background-position: bottom;
+    }
+
+
+.btn_listDwPage {
+    display: block;
+    cursor: pointer;
+    width: 95px;
+    height: 21px;
+    background-image: url(/images/vn/report/btn_listDwPage.gif);
+}
+
+    .btn_listDwPage:hover {
+        background-position: bottom;
+    }
+
+.btn_listLPage {
+    display: block;
+    cursor: pointer;
+    width: 95px;
+    height: 21px;
+    background-image: url(/images/vn/report/btn_listLPage.gif);
+}
+
+    .btn_listLPage:hover {
+        background-position: bottom;
+    }
+
+.report_title {
+    background-image: url(/images/vn/report/title_betRec.png);
+}
+
+.report_title {
+    border:0px;
+    background-image: url(/images/vn/report/title_betRec.png);
+    width: 190px;
+    height: 34px;
+}
+
+.icon_golden_logo {
+    background-image: url(/images/vn/main/golden_logo.png);
+    float:left;
+    width:74px;
+    height:72px;
+}
+
+.icon_BetCob {
+    background-image: url(/images/vn/report/icon_BetCob_m.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_BetRec {
+    background-image: url(/images/vn/report/icon_BetRec_m.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_HistoryRec {
+    background-image: url(/images/vn/report/icon_historyRec_m.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_RecSep {
+    background-image: url(/images/vn/report/icon_RecSep_m.png);
+    background-size: auto 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tb_ltTop {
+    width: 1270px;
+    float: left;
+    text-align: center;
+    background-image: url(/images/vn/common/bg_gameTop.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.langGameList {
+    display: block;
+    width: 125px;
+    height: 32px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 23px;
+    margin-left: 2px;
+    float: left;
+}
+
+.dogView {
+    width: 496px;
+    height: 260px;
+    border: 1px solid #97b1ca;
+    margin-top: 2px;
+    position: relative;
+    background-image: url(/images/vn/dogRacing/bg_dogRacingAD.jpg);
+}
+
+.analytics_AnyTimeTitle, .analytics_AnyTimeTitle2 {
+    background-image: url(/images/vn/main/icon_subTopDataAnalytics.png);
+}
+
+.analytics_AnyTimeK5Title {
+    background-image: url(/images/vn/main/icon_subTopAtk5DataAnalytics.png);
+}
+
+.analytics_SicBoTitle {
+    background-image: url(/images/vn/main/icon_subTopSicboRoad.png);
+}
+
+.analytics_ElevenPickFiveTitle {
+    background-image: url(/images/vn/main/icon_subTopEPFDataAnalytics.png);
+}
+
+.analytics_Happy10Title {
+    background-image: url(/images/vn/main/icon_subTopH10Analytics.png);
+}
+
+.analytics_Happy10ElecTitle {
+    background-image: url(/images/vn/main/icon_subTopH10ElecAnalytics.png);
+}
+
+.analytics_KenoTitle {
+    background-image: url(/images/vn/main/icon_subTopKenoDataAnalytics.png);
+}
+
+.analytics_PC28Title {
+    background-image: url(/images/vn/main/icon_subTopPC28DataAnalytics.png);
+}
+
+.analytics_Pk10Title {
+    background-image: url(/images/vn/main/icon_subTopPk10DataAnalytics.png);
+}
+
+.analytics_HrElecTitle {
+    background-image: url(/images/vn/main/icon_subTopHrElecDataAnalytics.png);
+}
+
+.analytics_ShipElecTitle {
+    background-image: url(/images/vn/main/icon_subTopShipElecDataAnalytics.png);
+}
+
+.analytics_Keno5Title {
+    background-image: url(/images/vn/main/icon_subTopKeno5DataAnalytics.png);
+}
+
+.analytics_SoccerTitle {
+    background-image: url(/images/vn/main/icon_subTopSocAnalytics.png);
+}
+
+/* 時時彩開獎動畫 */
+.ay2AnimeBS {
+    background-image: url("/images/vn/anyTime/icon_atAnimeBS.gif");
+    background-size:35px auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.ay2AnimeOE {
+    background-image: url("/images/vn/anyTime/icon_atAnimeOE.gif");
+    background-size:35px auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.ay2AnimeComb {
+    background-image: url("/images/vn/anyTime/icon_atAnimeComb.gif");
+    background-size:60px auto;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.ay2dragonTIGER {
+    background-image: url("/images/vn/anyTime/icon_dragonTIGER.gif");
+    background-size:35px auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.ay2Num_smallBig {    
+    background-image: url("/images/vn/anyTime/icon_smallBig.gif");
+    background-size:35px auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.sbRunOE {
+    background-image: url(/images/vn/sicbo/sbRunOE.gif);        
+    width: 25px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left:1px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.sbRunBS {
+    background-image: url(/images/vn/sicbo/sbRunBS.gif);    
+    width: 25px; 
+    height:25px;   
+    line-height: 25px;
+    text-align: center;
+    margin-left:1px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.liveShowAD {
+    height: 410px;
+    background-color: #ccc;
+    position: relative;
+    width:1002px;    
+    margin-bottom:-6px;
+    background-image:url(/images/vn/lottery/pic_EqMaintenance.jpg);        
+}
+    .liveShowAD div {
+        display:none;
+    }
+
+.imgLottering {
+    background-image:url('/images/vn/anyTime/icon_opening.gif');
+    width:135px;
+    height:31px;
+    float:right;
+    display:none;
+    margin-left:4px
+}
+
+.kenoResultSumRB {
+    background-image: url(/images/vn/keno/icon_kenoTopRand.gif);
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    width: 192px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 5px;    
+}
+
+.icon_kenoUpDw {
+    background-image: url("/images/vn/keno/icon_kenoUpDw.gif");
+    background-size:32px auto;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.icon_kenoOdEv {
+    background-image: url("/images/vn/keno/icon_kenoOdEv.gif");
+   background-size:32px auto;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.icon_kenoBS {
+    background-image: url("/images/vn/keno/icon_kenoBS.gif");
+    background-size:32px auto;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.icon_kenoOdEv01 {
+    background-image: url("/images/vn/keno/icon_kenoOdEv01.gif");
+    background-size:32px auto;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.icon_kenoFive {
+    background-image: url("/images/vn/keno/icon_kenoFive.gif");
+    background-size:32px auto;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/*切換線路*/
+.lineBox {    
+    width:140px;
+    background-image: url(/images/graph/main/bg_lineBox.png);
+    background-repeat: repeat;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    box-shadow:0 3px 10px #171d22; 
+    display:none;
+}
+
+    .lineBox td {
+        height: 23px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #becbd6;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+    }
+
+        .lineBox td:hover {
+            color: #fff;
+            background-image: url(/images/graph/main/bg_chosenLine.png);
+            background-repeat: repeat-x;
+            border-top: 1px solid #c43f42;
+            border-bottom: 1px solid #720001;
+        }
+
+/*主播聊天室頁籤*/
+.btn_AnchorChat {
+    background-image: url(/images/vn/main/btn_anchor.png);
+    width: 42px;
+    height: 144px;
+    cursor: pointer;
+    top: 290px;
+    /*left: 1012px;*/
+    position: absolute;
+}
+    .btn_AnchorChat:hover {
+        background-position: bottom;
+    }
+
+/*生肖(手機版)*/
+.icon_Zodiac01{
+    background-image:url(/images/vn/lottery/icon_Zodiac01.png);
+}
+.icon_Zodiac02{
+    background-image:url(/images/vn/lottery/icon_Zodiac02.png);
+}
+.icon_Zodiac03{
+    background-image:url(/images/vn/lottery/icon_Zodiac03.png);
+}
+.icon_Zodiac04{
+    background-image:url(/images/vn/lottery/icon_Zodiac04.png);
+}
+.icon_Zodiac05{
+    background-image:url(/images/vn/lottery/icon_Zodiac05.png);
+}
+.icon_Zodiac06{
+    background-image:url(/images/vn/lottery/icon_Zodiac06.png);
+}
+.icon_Zodiac07{
+    background-image:url(/images/vn/lottery/icon_Zodiac07.png);
+}
+.icon_Zodiac08{
+    background-image:url(/images/vn/lottery/icon_Zodiac08.png);
+}
+.icon_Zodiac09{
+    background-image:url(/images/vn/lottery/icon_Zodiac09.png);
+}
+.icon_Zodiac10{
+    background-image:url(/images/vn/lottery/icon_Zodiac10.png);
+}
+.icon_Zodiac11{
+    background-image:url(/images/vn/lottery/icon_Zodiac11.png);
+}
+.icon_Zodiac12{
+    background-image:url(/images/vn/lottery/icon_Zodiac12.png);
+}
+
+/*尾數(手機版)*/
+.icon_TailNum0 {
+    background-image: url(/images/vn/lottery/icon_TailNum0.png);
+}
+.icon_TailNum01 {
+    background-image: url(/images/vn/lottery/icon_TailNum1.png);
+}
+.icon_TailNum02 {
+    background-image: url(/images/vn/lottery/icon_TailNum2.png);
+}
+.icon_TailNum03 {
+    background-image: url(/images/vn/lottery/icon_TailNum3.png);
+}
+.icon_TailNum04 {
+    background-image: url(/images/vn/lottery/icon_TailNum4.png);
+}
+.icon_TailNum05 {
+    background-image: url(/images/vn/lottery/icon_TailNum5.png);
+}
+.icon_TailNum06 {
+    background-image: url(/images/vn/lottery/icon_TailNum6.png);
+}
+.icon_TailNum07 {
+    background-image: url(/images/vn/lottery/icon_TailNum7.png);
+}
+.icon_TailNum08 {
+    background-image: url(/images/vn/lottery/icon_TailNum8.png);
+}
+.icon_TailNum09 {
+    background-image: url(/images/vn/lottery/icon_TailNum9.png);
+}
+
+/*百家樂*/
+.PK_BtnArea div .palyer {
+    background: url(/images/vn/pk10/btn_player.png)no-repeat;
+    background-size: 35% !important;
+}
+
+.PK_BtnArea div .tie {
+    background: url(/images/vn/pk10/btn_tie.png)no-repeat;
+    background-size: 35% !important;
+}
+
+.PK_BtnArea div .banker {
+    background: url(/images/vn/pk10/btn_banker.png)no-repeat;
+    background-size: 35% !important;
+}
+
+/*時彩百家樂*/
+.Bet_BtnArea.first div .palyer {
+    background: url(/images/vn/pk10/btn_player.png)no-repeat;
+    background-size:35% !important;
+}
+
+.Bet_BtnArea.first div .tie {
+    background: url(/images/vn/pk10/btn_tie.png)no-repeat;
+    background-size: 35% !important;
+}
+
+.Bet_BtnArea.first div .banker {
+    background: url(/images/vn/pk10/btn_banker.png)no-repeat;
+    background-size: 35% !important;
+}
+
+/*report說明*/
+.divReportInstructions {
+    float: left; 
+    width:76px;
+    margin-left: 31px;
+    margin-top: 14px; 
+    font-size: 14px; 
+    color: red; 
+    text-decoration:underline;
+}
+
+@media (width: 320px) {
+    .icon_RecSep{background-size: auto 26px; margin-left:10px}
+}
+.LR_text .LR_text12:nth-child(3) {
+    width:14%;
+}
+.ruleListTb td,.subContent {
+    word-break: normal !important;
+}
+.ruleListTb tr td {
+    padding-bottom:10px;
+}
+
+#table_140 tr td, #table_181 tr td, #table_181_1 tr td {
+    padding-bottom:1px;
+}
+
+/* 手機版 生肖快選 */
+.Num_list:nth-child(3) .Num_listT {
+    letter-spacing:-1px;
+} 
+
+/* 手機版 球色/KENO獎號方位 按鈕選項 */
+@media (min-width: 320px) {
+    .btn_numCoSelect_w50,.btn_kenoSw50 {letter-spacing:-0.7px;}
+}
+@media (min-width: 400px) {
+    .btn_numCoSelect_w50 {letter-spacing:-1px;}
+}
+
+/*手機版 選單遊戲標題(越文部分省份兩行)*/
+.listTitleVn {
+    line-height: 20px;
+}
+
+/*手機版 賽車投注頁面 選項*/
+/*.Pk10_Bet div {
+    line-height: 23px;
+}*/
+
+@media (min-width: 400px) {
+    .listTitleVn {line-height: 25px;}
+    /*.Pk10_Bet div {line-height: 30px;}*/
+}
+@media (min-width: 768px) {
+    .listTitleVn {line-height: 35px;}
+    /*.Pk10_Bet div {line-height: 56px;}*/
+}
+
+/* 手機版 報表 */
+.ReportDetails_m_Body {
+   min-width: 367px;
+}
+
+/*手機版 特別號生肖*/
+.betName {
+    font-size: 0.8em;
+}
+
+/*手機版 開獎結果 球*/
+.LR_ball_B span, .LR_ball_G span, .LR_ball_R span, .LR_ball_Red span, .LR_ball_Bule span, .LR_ball_Purple span, .LR_ball_Orange span,
+.LR_Poker_ball_0 span, .LR_Poker_ball_1 span, .LR_Poker_ball_2 span, .LR_Poker_ball_3 span, .LR_Poker_ball_4 span,
+.LR_Poker_ball_5 span, .LR_Poker_ball_6 span, .LR_Poker_ball_7 span, .LR_Poker_ball_8 span, .LR_Poker_ball_9 span,
+.LR_red_ball span, .LR_blue_ball span {
+    font-size: 0.6em !important;
+}
+/* 快樂十分獎號走勢分析下方表格 Th欄位*/
+.tb_HP10WinList th {
+    font-size: 12px;
+}
+/* 快樂十分 雙面/龍虎 大小單雙調整 */
+.SidedMain .HP10SumMain_list:nth-child(1) .HP10SumBet_list:nth-child(3) {
+    margin-left: 32px;
+}
+.SidedMain .HP10SumMain_list:nth-child(1) .HP10SumBet_list:nth-child(4) {
+    margin-left: 10px;
+}
+.SidedMain .HP10SumMain_list:nth-child(1) .HP10SumBet_list:nth-child(5) {
+    margin-left: 4px;
+}
+
+/*快三任選號碼 左側標題*/
+.icon_2Same3Not {
+    background: url(/images/vn/sicBo/icon_2Same3Not.png) no-repeat;
+}
+
+/*虛擬足球 開獎結果 期數編號*/
+.eso_T span {
+    float: left;
+    color: #adadad;
+    font-size: 14px;
+    width: 37px;
+    line-height: 25px;
+    margin: 18px 12px 0 10px;
+}
+
+/*分分彩獎號下拉*/
+.time_Lottery td:first-child {
+    width: 73px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+/*手機板 主頁面 平台轉帳 存款*/
+.btn_wallet {
+    background-image: url(/images/tw/common/btn_transfer.svg);
+}
+
+.btn_deposit {
+    background-image: url(/images/vn/common/btn_deposit.svg);
+}
+
+.btn_withdraw {
+    background-image: url(/images/vn/common/btn_withdraw.svg);
+}
+
+/*外部頁面抬頭改回圖片*/
+.analytics_TsPk10Title{
+    background-image: url(/images/vn/main/icon_subTopTsPk10DataAnalytics.png);
+}
+
+.analytics_TsAnyTimeTitle {
+    background-image: url(/images/vn/main/icon_subTopTsAtDataAnalytics.png);
+}
+
+.analytics_TsAnyTimePokerTitle {
+    background-image: url(/images/vn/main/icon_subTopTsAtPokerDataAnalytics.png);
+}
+
+.analytics_AnyTimeElecTitle {
+    background-image: url(/images/vn/main/icon_subTopAtElecDataAnalytics.png);
+}
+
+.analytics_AnyTimeBlockTitle {
+    background-image: url(/images/vn/main/icon_subTopAtBlockDataAnalytics.png);
+}
+
+.analytics_Pk10BlockTitle {
+    background-image: url(/images/vn/main/icon_subTopPk10BlockDataAnalytics.png);
+}
+
+.analytics_pickElecTitle {
+    background-image: url(/images/vn/main/icon_subTopPickElecDataAnalytics.png);
+}
+
+.analytics_KenoElecTitle {
+    background-image: url(/images/vn/main/icon_subTopKenoElecDataAnalytics.png);
+}
+
+.analytics_SicBoElecTitle {
+    background-image: url(/images/vn/main/icon_subTopSicBoElecDataAnalytics.png);
+}
+
+.analytics_PipeElecTitle {
+    background-image: url(/images/vn/main/icon_subTopPipeElecDataAnalytics.png);
+}
+
+.analytics_GoalElecTitle {
+    background-image: url(/images/vn/main/icon_subTopGoalElecDataAnalytics.png);
+}
+
+.analytics_thLottoLaodlTitle {
+    background-image: url(/images/vn/main/icon_subTopthLottoLaodlAnalytics.png);
+}
+
+.analytics_SicBoFastElecTitle {
+    background-image: url(/images/vn/main/icon_subTopSicBoFastElecAnalytics.png);
+}
+
+.analytics_SicBoPkElecTitle {
+    background-image: url(/images/vn/main/icon_subTopSicBoPkElecAnalytics.png);
+}
+
+.analytics_RPSElecTitle {
+    background-image: url(/images/vn/main/icon_subTopRPSElecAnalytics.png);
+}
+
+.analytics_AnyTime4DTitle {
+    background-image: url(/images/vn/main/icon_subTopAt4DAnalytics.png);
+}
+
+.icon_FunctionSetTitle {
+    background-image: url(/images/vn/main/icon_FunctionSetTitle.png);
+}
+
+.icon_VnLottoHotTitle {
+    background-image: url(/images/vn/main/icon_VnLottoHotTitle.png);
+}
+
+.icon_kenoSelectNumList{
+    background-image:url(/images/vn/main/icon_kenoSelectNumList.png);
+}
+
+/*手機版維護圖*/
+.LiveMaintainShow{
+    background-image:url(/images/vn/common/pic_EqMaintenance_m.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+/*手機版BET彩圖片 (越文用簡體的圖片)*/
+#btnGame_15 .lottoLive {
+    background-image: url(/images/vn/main/icon_Lotto.svg);
+}
+
+#btnGame_17 .lottoLive {
+    background-image: url(/images/graph/lottoLive/icon_539Live_m.svg);
+}
+
+#btnGame_156 .lottoLive {
+    background-image: url(/images/vn/main/icon_Pk10_m.svg);
+}
+
+#btnGame_162 .lottoLive {
+    background-image: url(/images/vn/main/icon_Anytime_m.svg);
+}
+
+#btnGame_166 .lottoLive {
+    background-image: url(/images/vn/main/icon_AnytimePoker_m.svg);
+}
+
+#btnGame_181 .pc28 {
+    background-image: url(/images/vn/pc28/K28.png);
+}
+
+#btnGame_171 .lottoLive {
+    background-image: url(/images/vn/main/icon_HrElec.svg);
+}
+
+#btnGame_172 .lottoLive {
+    background-image: url(/images/vn/main/icon_AnyTimeElec.svg);
+}
+
+#btnGame_173 .lottoLive {
+    background-image: url(/images/cn/main/icon_PickElec.svg);
+}
+
+#btnGame_174 .lottoLive {
+    background-image: url(/images/vn/main/icon_SicBoElec.svg);
+}
+
+#btnGame_175 .lottoLive {
+    background-image: url(/images/vn/main/icon_ShipElec.svg);
+}
+
+#btnGame_176 .lottoLive {
+    background-image: url(/images/graph/happy10Elec/icon_Happy10Elec.svg);
+}
+
+#btnGame_177 .lottoLive {
+    background-image: url(/images/graph/kenoElec/icon_KenoElec.svg);
+}
+
+#btnGame_178 .lottoLive {
+    background-image: url(/images/vn/main/icon_pipeElec.svg);
+}
+
+#btnGame_179 .lottoLive {
+    background-image: url(/images/graph/goalElec/icon_GoalElec.svg);
+}
+
+#btnGame_180 .lottoLive {
+    background-image: url(/images/vn/main/icon_SicBoFastElec.svg);
+}
+
+#btnGame_211 .lottoLive {
+    background-image: url(/images/vn/anyTimeBlock/icon_BCT_m.svg);
+}
+
+#btnGame_213 .lottoLive {
+    background-image: url(/images/vn/lottoBlock/BCT539.svg);
+}
+
+#btnGame_214 .lottoLive {
+    background-image: url(/images/graph/pk10Block/icon_Pk10Block.svg);
+}
+
+#btnGame_215 .lottoLive {
+    background-image: url(/images/graph/vnLottoBlock/icon_VnLottoBlock18_m.svg);
+}
+
+#btnGame_216 .lottoLive {
+    background-image: url(/images/graph/vnLottoBlock/icon_VnLottoBlock27_m.svg);
+}
+
+#btnGame_217 .lottoLive {
+    background-image: url(/images/vn/lotto49Block/BCTMega6.svg);
+}
+
+#btnGame_218 .lottoLive {
+    background-image: url(/images/th/thLottoBlock/icon_thLottoBlock_m.svg);
+}
+
+#btnGame_221 .lottoLive {
+    background-image: url(/images/graph/main/icon_VnLottoElec.svg);
+}
+
+#btnGame_224 .lottoLive {
+    background-image: url(/images/graph/main/icon_VnLottoElec27.svg);
+}
+
+#btnGame_226 .lottoLive {
+    background-image: url(/images/graph/main/icon_ThLottoElec.svg);
+}
+
+#btnGame_231 .lottoLive {
+    background-image: url(/images/graph/sicBoPkElec/icon_SicBoPkElec.svg);
+}
+
+#btnGame_232 .lottoLive {
+    background-image: url(/images/vn/rpsElec/icon_RPSElec_m.svg);
+}
+
+#btnGame_9 .multiTable {
+    background-image: url(/images/vn/main/icon_mutiTable_m.svg);
+}
+
+/*PC PC28快速投注底圖*/
+.PC28_countryOff {
+    background: #e5e5e5 url(/images/vn/pc28/bg_k28.png) center no-repeat;
+    border-radius: 5px;
+    width: 772px;
+    height: 237px;
+    margin: 10px 13px 0;
+}
+
+/*PC版 H5視訊維護圖 (除BET六合外的BET彩種)*/
+.AtLiveMaintainShow{
+    background-image:url(/images/vn/anyTime/pic_EqMaintenance_VN_w800.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+/*PC版 H5視訊維護圖 (BET六合)*/
+.LottoLiveMaintainShow {
+    background-image: url(/images/vn/anyTime/pic_EqMaintenance_VN_w800.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: none;
+}

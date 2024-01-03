@@ -1,0 +1,1483 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    /*font-family: Arial,'\5b8b\4f53'; /*用unicode方式表示宋体*/
+    font-family: Arial, "微軟正黑體";
+    -ms-user-select: none; /* for IE */
+    -webkit-text-size-adjust: none; /* for Safari & Chrome */
+    -moz-text-size-adjust: none; /* for Firefox */
+}
+
+div:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+    li:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+a {
+    border: 0;
+    /*取消a標籤的虛線*/
+    outline: none; /* for Firefox */
+    hlbr: expression(this.onFocus=this.blur()); /* for IE */
+}
+
+img {
+    border: 0;
+}
+
+input, select, textarea {
+    font-family: Arial,微軟正黑體;
+    border: 0px;
+    outline: none;
+    background-color: white;
+}
+
+strong, b {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+    font-weight: bolder;
+}
+
+.colorR {
+    color: red;
+}
+
+.colorB {
+    color: blue;
+}
+
+.colorG {
+    color: green;
+}
+
+.colorM {
+    color: #625C00;
+}
+
+.colorW {
+    color: #964B00;
+}
+
+.colorE {
+    color: #CD661D;
+}
+
+.colorOrg {
+    color: #f14833;
+}
+
+.div_history {
+    margin: 0 auto;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    float: right;
+}
+
+    .div_history a {
+        float: right;
+        color: #fff;
+        font-size: 15px;
+        padding-right: 5px;
+        text-decoration: none;
+        line-height: 24px;
+        cursor: pointer;
+    }
+
+    .div_history div {
+        float: right;
+        background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_ltResultIcon.png);
+        width: 11px;
+        height: 10px;
+        margin-top: 6px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+.div_arrowOn {
+    background-position: bottom;
+}
+
+.obj_display_none {
+    display: none;
+}
+
+
+.div_limit {
+    padding: 0 3px;
+    background-color: #ffffcd;
+    color: #000;
+    border: 1px solid #b3b3b3;
+    line-height: 20px;
+    text-align: left;
+    position: absolute;
+    font-size: 14px;
+    display: none;
+}
+
+.txaChked {
+    background-color: #999;
+}
+
+.bg_chgInput {
+    background: none;
+    font-weight: bold;
+    background-color: #ffc938;
+}
+
+.div_msgCom {
+    position: absolute;
+    z-index: 100;
+    background-color: #bbb;
+    left: 210px;
+    top: 50px;
+}
+
+.tb_msgCom {
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+}
+
+    .tb_msgCom th {
+        background-color: #a00d15;
+        color: #fff;
+        border-bottom: 1px solid #b3b3b3;
+        line-height: 28px;
+        position: relative;
+    }
+
+.windClose a {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    display: block;
+    float: right;
+}
+
+.div_msgBox {
+    border: 2px solid #b3b3b3;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: #fff;
+}
+
+.tb_betList {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    line-height: 25px;
+}
+
+.div_numList {
+    float: left;
+    width: 100%;
+    height: 380px;
+    overflow-y: auto;
+}
+
+    .div_numList span {
+        padding-right: 5px;
+    }
+
+    .div_numList div {
+        float: left;
+        width: 155px;
+        text-align: left;
+    }
+
+.div_errorMsg {
+    line-height: 25px;
+    color: #f00;
+}
+
+.div_countDown {
+    position: absolute;
+    right: -50px;
+    bottom: 30px;
+}
+
+.div_demoBet {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 385px;
+    border: 3px solid #888;
+    /*font-weight: bold;*/
+    font-family: Arial,'微軟正黑體';
+    z-index: 1000;
+}
+
+#divBet.div_demoBet {
+    top: 0px;
+}
+
+.div_demoBet span {
+    padding-right: 5px;
+}
+
+.div_demoBetMulti {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 280px;
+    border: 3px solid #888;
+    font-family: Arial,'微軟正黑體';
+    z-index: 1001;
+}
+
+    .div_demoBetMulti span {
+        padding-right: 5px;
+        /*font-weight: bold;*/
+    }
+
+.tb_betDetailList {
+    width: 100%;
+    line-height: 25px;
+    border: 1px solid #999;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+    .tb_betDetailList a {
+        display: block;
+        float: left;
+    }
+
+.betTitle {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/bg_betListTop.jpg);
+    background-repeat: repeat-y;
+    height: 70px;
+    border-bottom: 1px solid #3e0000;
+    color: #FFF;
+}
+
+.div_attentionMsg {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 20px 0px;
+}
+
+.div_attentionBall {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 20px 0px;
+}
+
+#divShowBetNum {
+    border-top: 1px solid #fff;
+    /*border-bottom: 1px solid #b3b3b3;*/
+    width: 100%;
+}
+
+.div_msgbtn {
+    height: 35px;
+    padding: 10px 0px 5px 0px;
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+    .div_msgbtn input[type=button] {
+        border: 0;
+        cursor: pointer;
+    }
+
+.tb_gameTop {
+    width: 1002px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_ltGameSelect.jpg);
+    background-repeat: repeat-x;
+    height: 35px;
+    padding-left: 3px;
+}
+
+#divErrMsg {
+    width: 95%;
+    color: #f00;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.div_btmShow {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_areaBet.jpg);
+    width: 1002px;
+    margin: 0 auto;
+    height: 31px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.gameTitle {
+    color: #2e6291;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.ballMidLine {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_midLine.jpg);
+    background-repeat: repeat-y;
+    width: 2px;
+}
+
+.bg_ltBtmLine {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_ltBtmLine.jpg);
+    background-repeat: repeat-x;
+    height: 2px;
+}
+
+.bg_ballListinput {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_ltNumInput.jpg);
+    background-repeat: repeat-x;
+    height: 20px;
+    border: 1px solid #999;
+    ime-mode: disabled;
+    font-weight: bold;
+}
+
+.tb_TopGameSelect {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/bg_gameBtm.jpg);
+    width: 100%;
+}
+
+.tb_TopGameSelectA {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/btn_topGameSelect.png);
+    width: 125px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #364F74;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .tb_TopGameSelectA:hover {
+        color: #000;
+    }
+
+.tb_gameTime {
+    text-align: center;
+    font-size: 15px;
+    color: #31669A;
+    font-weight: bold;
+    width: 99%;
+}
+
+    .tb_gameTime td {
+        padding-top: 3px;
+    }
+
+.bg_time {
+    color: #f00;
+    font-weight: bold;
+}
+
+.btn_Down {
+    background-position: bottom;
+    color: #000;
+}
+
+.bg_subTop {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/bg_subTopTitle.jpg);
+    height: 78px;
+}
+
+.bg_subOtherTopFixed {
+    position: fixed;
+    width: 1182px;
+}
+
+.bg_subNewsTopFixed {
+    position: fixed;
+    width: 1200px;
+}
+
+.bg_subRuleTopFixed {
+    position: fixed;
+    width: 1383px;
+    z-index: 10;
+}
+
+.bg_subTeachoingTopFixed {
+    position: fixed;
+    width: 1200px;
+}
+
+.bg_subTop img {
+    margin-top: 15px;
+    float: left;
+}
+
+.tb_subMain {
+    margin: 0 auto;
+    width: 1002px;
+    background-color: #ebebeb;
+}
+
+.tb_subMain_News {
+    margin: 0 auto;
+    width: 1174px;
+    background-color: #ebebeb;
+}
+
+.subMenu {
+    background-color: #30679f;
+    height: 39px;
+    padding-left: 6px;
+    border-top: 1px solid #285a99;
+}
+
+.subOtherMenuFixed {
+    position: fixed;
+    top: 78px;
+    width: 1176px;
+}
+
+.subRuleMenuFixed {
+    position: fixed;
+    top: 78px;
+    width: 1267px;
+    z-index: 10;
+}
+
+.subMenu a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    width: 90px;
+    height: 35px;
+    background-size: 90px 70px;
+    margin-top: 4px;
+}
+
+    .subMenu a:hover {
+        background-position: bottom;
+    }
+
+.btn_SubDown {
+    color: #000;
+    background-position: bottom;
+}
+
+.Chked {
+    background-position: bottom;
+}
+
+.numSelect a {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/btn_nbAtoZ.jpg);
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #666;
+    float: left;
+    margin-left: 2px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .numSelect a:hover {
+        color: #fff;
+        background-position: bottom;
+    }
+
+.numSelect div {
+    float: left;
+    margin-left: 10px;
+}
+
+#btnRed {
+    cursor: pointer;
+}
+
+.c_pointer {
+    cursor: pointer;
+}
+
+.tb_atSubBet {
+    background-color: #d1d8e8;
+    color: #000;
+}
+
+.rBall2 {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_rBall2.png);
+    width: 27px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bBall2 {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_bBall2.png);
+    width: 27px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.gBall2 {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_gBall2.png);
+    width: 27px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.gBall {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_gBall.png);
+    width: 34px;
+    height: 32px;
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.rBall {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_rBall.png);
+    width: 34px;
+    height: 32px;
+    display: block;
+    line-height: 34px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+}
+
+.bBall {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/icon_bBall.png);
+    width: 34px;
+    height: 32px;
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+#divBetTotal {
+    font-weight: normal;
+}
+
+    #divBetTotal span {
+        /*font-weight: bold;*/
+    }
+
+.btn_BSOE {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/btn_nbAtoZ.jpg);
+    background-size: 35px auto;
+    width: 35px;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #666;
+    float: left;
+    margin-left: 2px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+    .btn_BSOE:hover {
+        color: #fff;
+        background-position: bottom;
+    }
+
+.btn_BSOELine {
+    border: 1px solid #32659c;
+}
+
+.icon_chip_1 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip1.png);
+}
+
+.icon_chip_5 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip5.png);
+}
+
+.icon_chip_10 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip10.png);
+}
+
+.icon_chip_20 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip20.png);
+}
+
+.icon_chip_30 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip30.png);
+}
+
+.icon_chip_40 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip40.png);
+}
+
+.icon_chip_50 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip50.png);
+}
+
+.icon_chip_100 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip100.png);
+}
+
+.icon_chip_200 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip200.png);
+}
+
+.icon_chip_500 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip500.png);
+}
+
+.icon_chip_1000 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip1K.png);
+}
+
+.icon_chip_2000 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip2K.png);
+}
+
+.icon_chip_5000 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip5K.png);
+}
+
+.icon_chip_10000 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chip10K.png);
+}
+
+.icon_chip_C1 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/img_goldChips.png);
+    background-size: 112%;
+}
+
+.icon_chip_C2 {
+    background: none;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/img_silverChips.png);
+    background-size: 112%;
+}
+
+.chip_Text {
+    position: relative;
+}
+
+    .chip_Text span {
+        width: 100%;
+        display: block;
+        color: #fff;
+        font-size: 12px;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    .icon_chip_Custom02 span {
+        right: -1px;
+    }
+
+.chip_Custom {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_chipSet.png);
+    position: relative;
+}
+
+    .chip_Custom span {
+        color: #fff;
+        font-size: 12px;
+        line-height:14px;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: scaleY(0.7);
+        -ms-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -o-transform: scaleY(0.7);
+    }
+
+    .chip_Custom.vn span {
+        letter-spacing: -1px;
+        margin: 0px 6px;
+    }
+
+    .chip_Custom.th span {
+        letter-spacing: -0.8px;
+        margin: 0px 8px;
+    }
+
+.div_demoBetting {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 280px;
+    border: 3px solid #888;
+    font-family: Arial,'微軟正黑體';
+    z-index: 1001;
+}
+
+    .div_demoBetting span {
+        padding-right: 5px;
+        /*font-weight: bold;*/
+    }
+
+/*盤口關閉*/
+.GameClose {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 17px;
+    width: 200px;
+    height: 177px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+    text-align: center;
+    padding: 6px 30px;
+}
+
+    .GameClose:before {
+        content: '';
+        background-color: #101010;
+        border-radius: 12px;
+        display: block;
+        z-index: -1;
+        position: absolute;
+        top: 6px;
+        bottom: 6px;
+        left: 6px;
+        right: 6px;
+    }
+
+.GameClose_T {
+    color: #fbe700;
+    border-bottom: 1px solid #444444;
+    font-size: 1.3em;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.GameClose_text {
+    color: #96a09c;
+    font-size: 1.1em;
+}
+
+.GameClose_time {
+    color: #ff0100;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+/*關盤公告(BET彩專用)*/
+.GameClose_News {
+    border: 5px solid rgb(140,140,140);
+    background: rgb(54,54,54);
+    border-radius: 5px;
+    width: 340px;
+    text-align: left;
+    display: block;
+    z-index: 100000;
+    position: absolute;
+    left: 330px;
+    top: 130px;
+    height: 190px;
+    word-break: break-all;
+    color: red;
+    font-size: 15px;
+}
+
+    .GameClose_News.live {
+        bottom: auto;
+        top: 30px;
+    }
+
+    .GameClose_News.vn {
+        word-break: normal;
+    }
+
+.btn_fastSelect {
+    width: 75px;
+    border-left: 1px solid #063851;
+    height: 31px;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+    float: left;
+}
+
+    .btn_fastSelect.on {
+        background-color: #063851;
+    }
+
+.fastArrow {
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+    .fastArrow.on {
+        width: 0;
+        height: 0;
+        border-width: 5px;
+        border-style: solid;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        border-color: transparent transparent #ffcc00 transparent;
+    }
+
+.fastSelectBtm {
+    background-color: #063851;
+    padding: 10px 0 8px 0;
+    width: 304px;
+    position: relative;
+    display: none;
+    z-index: 1;
+}
+
+.fastSelectBtmNum {
+    height: 35px;
+    width: 35px;
+    background-color: #214f7a;
+    border: 1px solid #45719b;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 5px 5px;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+
+    .fastSelectBtmNum:hover {
+        background-color: #ad0000;
+        border-color: #ea7676;
+    }
+
+    .fastSelectBtmNum.on {
+        background-color: #ad0000;
+        border-color: #ea7676;
+    }
+
+.fastTop {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.fastAList {
+    display: table;
+    margin: 0 auto;
+    line-height: 0px;
+}
+
+/*下注成功倒數關閉*/
+.btn_betCloseA {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_betCloseA.jpg);
+    height: 28px;
+    line-height: 27px;
+    cursor: pointer;
+    padding: 0 30px;
+    border: 1px solid #ea7676;
+    min-width: 80px;
+    text-align: center;
+    color: #fff;
+    display: table;
+    position: relative;
+    margin: 0 auto;
+}
+
+    .btn_betCloseA:hover {
+        background-position: bottom;
+    }
+
+    .btn_betCloseA span {
+        font-size: 17px;
+        color: #ffc938;
+    }
+
+/*彈跳視窗-白色樣式*/
+
+.PopUps {
+    background-color: #fff;
+    border: 4px solid #c2ccd5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 15px 15px;
+    position: absolute;
+    top: 80px;
+    left: 52px;
+}
+
+.PopUps_title {
+    min-height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn_close {
+    border: 0;
+    width: 16px;
+    height: 16px;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_close.png) no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 27px;
+    right: 10px;
+}
+
+.PopUps_content {
+    margin-top: 10px;
+}
+
+/*按鈕樣式-取消、確認送出*/
+
+.cancel {
+    background-color: #898989;
+    border-radius: 3px;
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+    .cancel:hover {
+        background-color: #a3a3a3;
+    }
+
+.confirm {
+    background-color: #336aab;
+    border-radius: 3px;
+    width: 113px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+    .confirm:hover {
+        background-color: #247ae0;
+    }
+
+.oddsLabel {
+    color: #000;
+    font-weight: normal;
+}
+
+/*關盤公告*/
+.bounceNotice {
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    width: 350px;
+    height: 200px;
+    background-color: #000;
+    border: 5px solid #ababab;
+    border-radius: 5px;
+    padding: 0px 10px;
+    text-align: center;
+    z-index: 1000;
+    display: none;
+}
+
+    .bounceNotice.vn {
+        height: 232px;
+    }
+
+    .bounceNotice.id {
+        height: 250px;
+    }
+
+    .bounceNotice span {
+        color: #ffea00;
+    }
+
+    .bounceNotice.vn .warpL {
+        margin: 0px 15px;
+    }
+
+.bounceNoticeT {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ababab;
+    line-height: 50px;
+    color: #ffea00;
+}
+
+.bounceNoticeT.th {
+    height: 40px;
+    line-height: 40px;
+}
+
+.bounceNoticeB {
+    color: #fff;
+    padding-top: 20px;
+}
+
+.bounceNoticeB.th {
+    padding-top: 15px;
+}
+
+.txt_red {
+    color: #fe0000;
+    margin-top: 15px;
+}
+
+.warpL {
+    text-align: left !important;
+    margin: 0px 40px;
+}
+
+/*IE瀏覽器隱藏INPUT預設的X按鈕*/
+input::-ms-clear {
+    display: none;
+}
+
+/*捲軸style修改*/
+.scrollbar-macosx > .scroll-element div.scroll-bar {
+    background-color: #888;
+}
+
+/*
+此部分是為了解決平板出現兩個卷軸而加上的
+PC版本身有套用卷軸套件，因此預期不影響
+*/
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+      display: none;
+}
+
+/*新捲軸css*/
+#divDelGid, #divDelGidK0, #divDelGidK1, #divDelGidK2, #divDelGidK3 {
+    max-height: 85px;
+}
+
+/*投注項目更多提示圖*/
+.Game_downIcon {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/DownIconPC.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    left: 42%;
+}
+
+.bg_ballListinput::-webkit-input-placeholder, .importBox::-webkit-input-placeholder, .importBox02::-webkit-input-placeholder, .bg_chgInput::-webkit-input-placeholder {
+    font-weight: normal;
+}
+
+.bg_ballListinput:-ms-input-placeholder, .importBox:-ms-input-placeholder, .importBox02:-ms-input-placeholder, .bg_chgInput:-ms-input-placeholder {
+    font-weight: normal;
+}
+
+
+.bg_ballListinput:-moz-placeholder, .importBox:-moz-placeholder, .importBox02:-moz-placeholder, .bg_chgInput:-moz-placeholder {
+    font-weight: normal;
+}
+
+.bg_ballListinput::-moz-placeholder, .importBox::-moz-placeholder, .importBox02::-moz-placeholder, .bg_chgInput::-moz-placeholder {
+    font-weight: normal;
+}
+
+::-moz-placeholder { /* Firefox的placeholder 直接寫死顏色 防止被更新到*/
+  color: gray;
+  opacity:1;
+}
+
+.white_space{
+    margin-right: 5px;
+}
+
+    /*長龍提示*/
+    .spn-red-tag{
+        position:relative;
+    }
+
+.btn_Js_topsum .redLabel, .btn_Js_muti .redLabel, .spn-red-tag .redLabel,
+.Pk_circle .redLabel, .Pk_box3 .redLabel,
+.Pk_box4 .redLabel, .GameBotBox02 .redLabel, .BS_box .redLabel, .btn_PkDice .redLabel,
+.GameBotBox .redLabel, .ba_box02 .redLabel, .GameBot .redLabel,
+.ba_player .redLabel, .ba_banker .redLabel, .ba_tie .redLabel,
+.Pk_bacca_BetArea .redLabel{
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50px;
+    background-color: #f28d1b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.btn_Js_topsum .redLabel.lable_arrow, .btn_Js_muti .redLabel.lable_arrow, .spn-red-tag .redLabel.lable_arrow,
+.Pk_circle .redLabel.lable_arrow, .Pk_box3 .redLabel.lable_arrow,
+.Pk_box4 .redLabel.lable_arrow, .GameBotBox02 .redLabel.lable_arrow, .BS_box .redLabel.lable_arrow, .btn_PkDice .redLabel.lable_arrow,
+.GameBotBox .redLabel.lable_arrow, .ba_box02 .redLabel.lable_arrow, .GameBot .redLabel.lable_arrow,
+.ba_player .redLabel.lable_arrow, .ba_banker .redLabel.lable_arrow, .ba_tie .redLabel.lable_arrow,
+.Pk_bacca_BetArea .redLabel.lable_arrow {
+    width: 17px;
+    padding-right: 6px;
+}
+
+.btn_Js_topsum .long_arrow, .btn_Js_muti .long_arrow, .spn-red-tag .long_arrow,
+.Pk_circle .long_arrow, .Pk_box3 .long_arrow,
+.Pk_box4 .long_arrow, .GameBotBox02 .long_arrow, .BS_box .long_arrow, .btn_PkDice .long_arrow,
+.GameBotBox .long_arrow, .ba_box02 .long_arrow, .GameBot .long_arrow,
+.ba_player .long_arrow, .ba_banker .long_arrow, .ba_tie .long_arrow,
+.Pk_bacca_BetArea .long_arrow{
+    position: absolute;
+    top: -6px;
+    bottom: auto;
+    right: -8px;
+    width: 8px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+}
+
+.btn_Js_topsum .redLabel{
+    right: -11px;
+    top: -11px;
+}
+
+.btn_Js_topsum.on .redLabel{
+    right: -12px;
+    top: -12px;
+}
+
+.btn_Js_muti.on .redLabel {
+    right: -9px;
+    top: -9px;
+}
+
+.btn_Js_muti.on .long_arrow {
+    right: -9px;
+    top: -7px;
+}
+
+.btn_Js_muti.on .redLabel.Keno5Class, .btn_Js_muti.on .redLabel.anyTimeK5Class,
+.btn_Js_muti.on .redLabel.thLottoElecClass, .btn_Js_muti.on .redLabel.thLottoBlockClass {
+    right: -8px;
+    top: -8px;
+}
+
+.btn_Js_muti.on .long_arrow.Keno5Class, .btn_Js_muti.on .long_arrow.anyTimeK5Class,
+ .btn_Js_muti.on .long_arrow.thLottoElecClass, .btn_Js_muti.on .long_arrow.thLottoBlockClass {
+    right: -8px;
+    top: -6px;
+}
+
+.btn_Js_muti .redLabel.vn.dtClass,
+.btn_Js_muti .redLabel.lable_arrow.vn.dtClass,
+.btn_Js_muti.on .long_arrow.vn.dtClass{
+    top: -12px;
+}
+
+.btn_Js_muti.on .redLabel.vn.dtClass {
+    top: -13px;
+}
+
+.btn_Js_muti .long_arrow.vn.dtClass{
+    top: -11px;
+}
+
+.btn_Js_muti .redLabel.vn.Keno5Class, .btn_Js_muti .redLabel.vn.anyTimeK5Class,
+.btn_Js_muti .redLabel.lable_arrow.vn.Keno5Class, .btn_Js_muti .redLabel.lable_arrow.vn.anyTimeK5Class,
+.btn_Js_muti.on .long_arrow.vn.Keno5Class, .btn_Js_muti.on .long_arrow.vn.anyTimeK5Class,
+.btn_Js_muti.on .long_arrow.vn.thLottoElecClass, .btn_Js_muti.on .long_arrow.vn.thLottoBlockClass {
+    top: -13px;
+}
+
+.btn_Js_muti.on .redLabel.vn.Keno5Class, .btn_Js_muti.on .redLabel.vn.anyTimeK5Class,
+, .btn_Js_muti.on .redLabel.vn.thLottoElecClass, .btn_Js_muti.on .redLabel.vn.thLottoBlockClass {
+    top: -13px;
+}
+
+.btn_Js_muti .long_arrow.vn.Keno5Class, .btn_Js_muti .long_arrow.vn.anyTimeK5Class,
+, .btn_Js_muti .long_arrow.vn.thLottoElecClass, .btn_Js_muti .long_arrow.vn.thLottoBlockClass {
+    top: -13px;
+}
+
+.Pk_box4 .redLabel, .Pk_box4 .long_arrow,
+.GameBotBox02 .redLabel, .GameBotBox02 .long_arrow,
+.BS_box .redLabel, .BS_box .long_arrow,
+.ba_box02 .redLabel, .ba_box02 .long_arrow,
+.ba_player .redLabel,.ba_player .long_arrow,
+.ba_banker .redLabel, .ba_banker .long_arrow,
+.Pk_box3 .redLabel, .Pk_box3 .long_arrow,
+.btn_PkDice .redLabel {
+    right: -2px;
+}
+
+.Pk_circle .redLabel, .Pk_circle .long_arrow{
+    right: -12px;
+    top: -5px;
+}
+
+.Pk_circle .redLabel.vn, .Pk_circle .long_arrow.vn{
+    right: -14px;
+}
+
+/*越站 KU快樂十分 樣式*/
+#btnSum_TailBS_61.btn_Js_muti .redLabel.vn,
+#btnSum_TailBS_62.btn_Js_muti .redLabel.vn {
+    top: -12px;
+}
+
+#btnSum_TailBS_61.btn_Js_muti .long_arrow.vn,
+#btnSum_TailBS_62.btn_Js_muti .long_arrow.vn {
+    top: -10px;
+}
+
+/*印站 時彩5球總和 龍位 樣式*/
+#divSumBallK20_5001.btn_Js_muti .redLabel.id {
+    right: -12px;
+    top: -10px;
+}
+
+#divSumBallK20_5001.btn_Js_muti.on .redLabel.id {
+    right: -13px;
+    top: -11px;
+}
+
+/*聊天室刷新*/
+.refresh_Mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 4;
+}
+
+    .refresh_Mask .refresh_Wraps {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+.refresh_Box {
+    position: absolute;
+    transform: translateY(50%);
+    top: 30%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+    .refresh_Box span {
+        max-width: 140px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        margin: 0 auto 15px;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,0.5);
+        color: #fff000;
+        font-size: 16px;
+    }
+
+        .refresh_Box span.vn, .refresh_Box span.id {
+            max-width: 204px;
+        }
+
+        .refresh_Box span.th {
+            max-width: 193px;
+        }
+
+    .refresh_Box a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #4984bf;
+        color: #fff;
+        max-width: 160px;
+        height: 40px;
+        padding:0 12px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+        .refresh_Box a img {
+            width: 31px;
+            height:24px;
+            margin-right: 10px;
+        }
+
+        .refresh_Box a:hover {
+            background-color: #5d91c5;
+        }
+
+    .refresh_Box.LiveShow {
+        top: 20%;
+    }
+
+        .refresh_Box.LiveShow .text_th {
+            max-width: 190px;
+        }
+        /*聊天室刷新*/
+
+.chipWraps {
+    position: relative;
+}
+
+    .chipWraps:hover .allChipBox {
+        display: block;
+    }
+
+    .chipWraps:hover .chip_close {
+        background: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_arrowUp.png) no-repeat bottom;
+    }
+
+.chip_close {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_arrowUp.png) no-repeat top;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 8px;
+    z-index: 2;
+    background-size: 100%;
+    width: 13px;
+    height: 8px;
+    cursor: pointer;
+}
+
+.betlistChip {
+    width: 85%;
+    height: 47px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .betlistChip div {
+        width: 44px;
+        height: 29px;
+        margin: 2px 2px;
+        cursor: pointer;
+        background-size: 44px 29px;
+    }
+
+.allChipBox {
+    display: none;
+    position: absolute;
+    top: -1px;
+    margin: auto;
+    left: -1px;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+    width: 180px !important;
+    padding-bottom: 8px;
+    border: #cccccc 1px solid;
+    cursor: pointer;
+}
+
+    .allChipBox .chipBoxItem {
+        padding-top: 5px;
+        width: 85%;
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .allChipBox div {
+        width: 44px;
+        height: 29px;
+        margin: 2px 2px;
+        cursor: pointer;
+        background-size: 44px 29px;
+    }
+
+    .allChipBox .chipBoxItem div:hover {
+        margin-top: -2px;
+    }

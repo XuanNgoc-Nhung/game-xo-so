@@ -1,0 +1,3189 @@
+﻿
+body {
+    background: #e4e4e4;
+}
+
+/*為了避免 swfobject.js 產生的 object 造成子頁面 iframe 高度跑掉*/
+body > object {
+    display: none;
+}
+
+/*遮罩*/
+.maskSelect, .maskPopup {
+    width: 800px;
+    height: 448px;
+    position: absolute;
+    top: 315px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 2;
+}
+
+.maskList {
+    width: 200px;
+    height: 728px;
+    position: absolute;
+    top: 35px;
+    left: 800px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 3;
+}
+
+.maskBet {
+    width: 800px;
+    height: 757px;
+    position: absolute;
+    top: 0;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 102;
+}
+
+.maskTop {
+    height: 280px;
+    position: absolute;
+    width: 800px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index:1;
+}
+
+.maskSingleParleyFull {
+    border-radius: 10px;
+    width: 699px;
+    height: 491px;
+    position: absolute;
+    top: 80px;
+    left: 52px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 103;
+}
+
+.maskSingleParleyLeft {
+    width: 399px;
+    height: 400px;
+    position: absolute;
+    top: 151px;
+    left: 72px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 102;
+}
+
+.maskSingleParleyMenu {
+    width: 261px;
+    height: 40px;
+    position: absolute;
+    top: 151px;
+    right: 270px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 102;
+}
+
+.maskSingleMultiFull {
+    border-radius: 10px;
+    width: 707px;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: 46px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 103;
+}
+
+.maskSingleMultiLeft {
+    width: 399px;
+    height: 360px;
+    position: absolute;
+    top: 200px;
+    left: 66px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 102;
+}
+
+.maskSingleMultiMenu {
+    width: 667px;
+    height: 39px;
+    position: absolute;
+    top: 151px;
+    left: 66px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 102;
+}
+
+/*關盤使用*/
+.closeHint {
+    border: 5px solid rgba(255,255,255,0.4);
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 340px;
+    text-align: center;
+    margin: auto;
+    z-index: 999;
+    padding-top: 20px;
+}
+
+.btn_closeGameHint {
+    background: none;
+    border: 0px;
+    background-color: #900000;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #fff;
+    font-family: '微軟正黑體';
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.btn_clear {
+    display: none;
+    position: absolute;
+    top: 160px;
+    bottom: 0;
+    right: 580px;
+    margin: auto;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/icon_closeBank.svg)#fff no-repeat center;
+    background-size: 75%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.btn_fastclear {
+    display: none;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 487px;
+    margin: auto;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/icon_closeBank.svg)#fff no-repeat center;
+    background-size: 75%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*全*/
+a {
+    text-decoration: none;
+}
+
+
+input {
+    font-family: Arial, "微軟正黑體";
+    padding: 0px;
+    border: 0px;
+    outline: none;
+}
+
+.Js {
+    width: 1000px;
+}
+
+.Js_BG_T {
+    background: #4984bf;
+    height: 35px;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    position: relative;
+}
+
+.Js_result_T {
+    width: 202px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Js_today {
+    background: #fff;
+    float: right;
+    width: 200px;
+}
+
+.Js_today_T {
+    border-left: #88baeb 1px solid;
+    width: 187px;
+    padding: 0px 6px;
+}
+
+.Js_now {
+    width: 180px;
+    height: 297px !important;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    .Js_now span {
+        color: #f00;
+    }
+
+.Js_play {
+    float: left;
+    background: #f3f3f3;
+    width: 800px;
+}
+
+.Js_play_T {
+    width: 780px;
+    display: inline-block;
+}
+
+.Js_bookmark, .Js_bookmark02 {
+    float: left;
+    width: 791px;
+    padding: 11px 4px 1px 5px;
+}
+
+.Js_reciprocal {
+    margin-left: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+    .Js_reciprocal .time {
+        display: block;
+        background: url(https://kuvn-cf.nsb777.net/images/graph/common/bg_time.svg)no-repeat center;
+        background-size: 100%;
+        width: 40px;
+        height: 28px;
+        line-height: 28px;
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .Js_reciprocal .white_t {
+        width: 18px;
+        height: 38px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .Js_reciprocal .red_t {
+        color: #f20000 !important;
+    }
+
+.Js_bookmark .Js_registration:last-child, .Js_bookmark02 .Js_registration:last-child {
+    margin-right: 0;
+}
+
+.btn_slidewrap {
+    float: left;
+    position: relative;
+}
+
+    .btn_slidewrap:hover .Js_slide {
+        display: block;
+    }
+
+.Js_slide {
+    display: none;
+    width: 95px;
+    padding: 7px 0;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    position: absolute;
+    top: 34px;
+    right: 3px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+    .Js_slide:before {
+        content: " ";
+        clear: both;
+        overflow: hidden;
+        display: block;
+        width: 95px;
+        height: 8px;
+        background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/bg_triangle.png) no-repeat center;
+        position: absolute;
+        top: -8px;
+        left: 0px;
+    }
+
+.Js_slidesubmenu {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+    .Js_slidesubmenu:hover {
+        background-color: #aedcff;
+        color: #106eb6;
+    }
+
+.Js_registration {
+    display: block;
+    float: left;
+    background: #ccc;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 4px;
+    position: relative;
+}
+
+.blueLine {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #4984c0;
+}
+
+.Js_registration:last-child {
+    width: 97px;
+}
+
+.btn_slidewrap:last-child {
+    width: 97px;
+}
+
+.Js_registration.icon_triangle {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/icon_triangle.png) #ccc no-repeat 80px 12px;
+}
+
+/* 平版轉PC調整不可以合併樣式 start*/
+.Js_registration:hover {
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    color: #106eb6;
+}
+
+.Js_registration.on {
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    color: #106eb6;
+}
+
+.Js_registration:hover .blueLine, .btn_slidewrap:hover .blueLine {
+    display: block;
+}
+
+
+.Js_registration.on .blueLine, .btn_slidewrap.on .blueLine {
+    display: block;
+}
+
+/* 平版轉PC調整不可以合併樣式 end*/
+
+.btn_slidewrap.on > .Js_registration.icon_triangle {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/icon_triangleBlue.png) #fff no-repeat 80px 12px;
+    color: #106eb6;
+}
+
+.btn_slidewrap:hover > .Js_registration.icon_triangle {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/icon_triangleBlue.png) #fff no-repeat 80px 12px;
+    color: #106eb6;
+}
+
+.Js_playContent, .Js_playContent02 {
+    background: #fff;
+    float: left;
+    width: 780px;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    padding-bottom: 6px;
+    color: #106eb6;
+    font-size: 13px;
+}
+
+.Js_submenu {
+    padding: 10px 0 0 10px;
+}
+
+.Js_subselectArea {
+    width: 750px;
+    margin: 15px auto;
+}
+
+.Js_submenu_title {
+    color: #000;
+    float: left;
+    line-height: 30px;
+	width: 64px;
+    font-size: 14px;
+}
+
+.btn_Js_submenu, .btn_Js_muti, .btn_Js_botsum {
+    text-decoration: none;
+	width: 92px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+	cursor: pointer;
+	background: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/btn_submenu.png) no-repeat;
+}
+
+.btn_Js_submenu:last-child {
+	margin-right: 0!important;
+}
+
+.btn_Js_muti {
+    margin-top: 3px;
+    margin-right: 0;
+    font-size: 15px;
+}
+
+    .btn_Js_muti.on {
+        width: 98px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .btn_Js_muti.bull {
+        width: 65px;
+        background-size: 65px 60px;
+    }
+
+        .btn_Js_muti.bull.on, .btn_Js_muti.bull.btn_ay2BullPink {
+            width: 63px;
+            height: 28px;
+            line-height: 28px;
+        }
+
+.btn_Js_topsum {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/btn_submenu_short.png) no-repeat;
+    width: 72px;
+    height: 28px;
+    line-height: 29px;
+    border-radius: 3px;
+    float: left;
+	margin-top: 2px;
+    margin-left: 12px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    position:relative;
+}
+
+    .btn_Js_topsum.on {
+        width: 70px;
+        height: 26px;
+        line-height: 28px;
+    }
+
+.btn_Js_botsum {
+    width: 60px;
+    font-size: 15px;
+    margin-right: 5px;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_red.png) no-repeat;
+}
+
+    .btn_Js_botsum.on {
+        width: 58px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+.btn_orange {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_orange.png) no-repeat;
+}
+
+.btn_green {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_green.png) no-repeat;
+}
+
+.btn_Darkgreen {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_Darkgreen.png) no-repeat;
+}
+
+.btn_blue {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_blue.png) no-repeat;
+}
+
+.btn_purple {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_purple.png) no-repeat;
+}
+
+.btn_Violet {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_sum_Violet.png) no-repeat;
+}
+
+.btn_middle {
+    width: 85px;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_submenu_middle.png) no-repeat;
+}
+
+    .btn_middle.on {
+        width: 83px;
+    }
+
+/* 平版轉PC調整不可以合併樣式 start*/
+.btn_Js_submenu:hover, .btn_Js_muti:hover, .btn_Js_topsum:hover, .btn_Js_botsum:hover {
+    background-position: bottom;
+    color: #eb132d;
+}
+
+.btn_Js_submenu.on, .btn_Js_muti.on, .btn_Js_topsum.on, .btn_Js_botsum.on {
+    background-position: bottom;
+    color: #eb132d;
+}
+/* 平版轉PC調整不可以合併樣式 end*/
+
+    .btn_Js_topsum:hover .btn_muti_value, .btn_Js_muti:hover .btn_muti_value {
+        color: #eb132d;
+    }
+
+    .btn_ay2BullPink:hover {
+        background-color: #ffcdcf;
+    }
+
+.btn_muti_value {
+    color: #4984c0;
+    font-size: 11px !important;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.btn_wrap_bull {
+    float: left;
+    width: 135px;
+}
+
+.btn_Js_sumWrap {
+    float: left;
+    width: 105px;
+    margin-left: 10px;
+}
+
+    .btn_Js_sumWrap.setting {
+        float: left;
+        width: 108px;
+        margin-left: 0;
+    }
+
+    .btn_Js_sumWrap.setting_R {
+        float: left;
+        width: 150px;
+        margin-left: 0;
+    }
+
+.Js_note {
+    color: #ff0000;
+    position: absolute;
+    top: 332px;
+    right: 212px;
+    font-size: 13px;
+}
+
+.Js_description {
+    padding: 10px 0px 10px 10px;
+    font-size: 13px;
+}
+
+    .Js_description > span {
+        line-height: 19px;
+    }
+
+.Js_otherHelp {
+    float: right;
+}
+
+    .Js_otherHelp img {
+        float: left;
+        padding: 1px 5px;
+        cursor: pointer;
+    }
+
+    .Js_otherHelp span {
+        float: left;
+        margin-left: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+        .Js_otherHelp:not(#divDescription) span:hover {
+            color: #008aff;
+        }
+
+.Js_substance {
+    position: relative;
+    background: #efefef;
+    border: #c4c4c4 1px solid;
+    float: right;
+    width: 778px;
+    height: 190px;
+    padding: 3px 0 2px;
+}
+
+    .Js_substance .on {
+        background: #ffcdcf !important;
+        border: #eb132d 1px solid !important;
+        color: #eb132d !important;
+    }
+
+    .Star3NoSeat .Js_substance, .Star4NoSeat .Js_substance {
+        height: 168px;
+    }
+    .Star3NoSeat .Js_substance .Js_item, .Star4NoSeat .Js_substance .Js_item {
+        margin-top: 66px;
+    }
+    .Star4NoSeat .Js_description  {
+        margin-top: 12px;
+    }
+
+.Js_substance_topbox, .Js_substance_botbox {
+    width: 764px;
+    margin: 0 auto;
+    padding: 20px 0 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.Js_substance_botbox {
+    border-bottom: 0;
+}
+
+.Js_item {
+    height: 35px;
+    padding: 2px 5px 1px 10px;
+}
+
+.Js_item_R {
+    height: 35px;
+    padding: 2px 0;
+}
+
+    .Js_item_R > .Js_circle {
+        margin-left: 5px;
+    }
+
+.Js_sorting, .Js_sorting_R, .Js_muti_title {
+    background: #fff;
+    border: #c4c4c4 1px solid;
+    box-sizing: border-box;
+    border-radius: 2px;
+    float: left;
+    width: 65px;
+    height: 28px;
+    margin: 3px 0px;
+    color: #000;
+    text-align: center;
+    line-height: 28px;
+    cursor: default;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+    .Js_sorting.id {
+        font-size: 12px;
+    }
+
+.Js_muti_title {
+    margin: 4px 10px 4px 0px;
+    width: 65px;
+}
+
+.Js_interest {
+    float: left;
+    margin: 0px 5px 0 14px;
+    color: #ff0000;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.Js_interest_shortR {
+    color: red;
+	font-weight: bold;
+	margin-left: 5px;
+    float: left;
+    height: 26px;
+    margin-top: 4px;
+    font-size: 16px;
+    width: 65px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.Js_interest_short {
+    padding-left: 2px;
+    float: left;
+    color: #ff0000;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.Js_circle {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/pk10/bg_button.jpg);
+    background-size: 1px 40px;
+    border: #cccccc 1px solid;
+    border-radius: 25px;
+    float: left;
+    width: 31px;
+    height: 31px;
+    margin-left: 12px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+    .Js_circle:hover {
+        background: #ffcdcf;
+        border: #eb132d 1px solid;
+        color: #eb132d;
+    }
+
+.Js_dataSum {
+    width: 33px;
+    color: #106eb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    float: left;
+    margin-left: 12px;
+    line-height: 35px;
+}
+
+.Js_box_R {
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.Js_box, .Js_box_R2 {
+    background: #86bbf2;
+    border: 0px;
+    border-radius: 10px;
+    float: left;
+    width: 29px;
+    height: 29px;
+    margin: 2px 0px 2px 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+    .Js_box.fastSelected, .Js_box:hover, .Js_box_R2:hover {
+        background: #008aff;
+    }
+
+
+.Js_betContent {
+    background: #b3d2f2;
+    border-bottom: #7b9fc5 1px solid;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.Js_betItem {
+    float: left;
+    color: #000;
+    height: 30px;
+    /*font-weight: 700;*/
+    line-height: 30px;
+}
+
+    .Js_betItem span {
+        font-size: 15px;
+    }
+
+    .Js_betItem .btn_close {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 23px;
+        margin: auto;
+        background: url(https://kuvn-cf.nsb777.net/images/graph/common/icon_closeBank.svg)#fff no-repeat center;
+        background-size: 75%;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+.Js_betItem2 {
+    line-height: 33px;
+    margin: 1px 5px 0 5px;
+    float: left;
+}
+
+.Js_betItem3 {
+    float: left;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 35px 9px 10px;
+}
+
+.Js_money {
+    background: #fff;
+    border: #cccccc 1px solid;
+    border-radius: 3px;
+    width: 58px;
+    height: 30px;
+    padding: 0px 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    .Js_money::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #888888;
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .Js_money::-moz-placeholder { /* Firefox 19+ */
+        color: #888888;
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .Js_money:-ms-input-placeholder { /* IE 10+ */
+        color: #888888;
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .Js_money:-moz-placeholder { /* Firefox 18- */
+        color: #888888;
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .Js_money.amtFocus {
+        border: #ffc938 2px solid;
+        width: 56px;
+    }
+
+.Js_chipArea {
+    background: #fff;
+    border: #cccccc 1px solid;
+    border-radius: 3px;
+    float: left;
+    width: 180px;
+    height: 45px;
+    margin: 10px auto;
+}
+
+.Js_chipArrowL {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_arrowL1.png) no-repeat;
+    float: left;
+}
+
+.Js_chipArrowR {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_arrowR1.png) no-repeat;
+    float: right;
+}
+
+.Js_repeat {
+    background: #fff;
+    border: #008aff 1px solid;
+    border-radius: 2px;
+    width: 180px;
+    height: 35px;
+    margin: 10px;
+    line-height: 35px;
+    color: #008aff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .Js_repeat:hover {
+        background: #e0f2ff;
+        color: #0090ff;
+    }
+
+.Js_periodText {
+    float: right;
+    margin: 3px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.Js_settlement {
+    background: #b3d2f2;
+    border-top: #fff 1px solid;
+    height: 110px;
+    width: 180px;
+    padding: 8px 10px;
+    font-size: 14px;
+    float: left;
+}
+
+    .Js_settlement div {
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+
+    .Js_settlement input {
+        border-radius: 3px;
+        color: #fff;
+        margin: 5px 0px 2px;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.Js_cancel {
+    background: #898989;
+    float: left;
+    width: 75px;
+    height: 35px;
+}
+
+.Js_confirm {
+    background: #336aab;
+    float: right;
+    width: 95px;
+    height: 35px;
+}
+
+.Js_cancel:hover {
+    background: #aaaaaa;
+}
+
+.Js_confirm:hover {
+    background: #499cff;
+}
+
+.Js_analysis_T {
+    width: 180px;
+    padding: 0 10px;
+    font-size: 15px;
+    float: left;
+}
+
+.Js_analyze {
+    text-align: center;
+    color: #e9e317;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    .Js_analyze img {
+        float: left;
+        padding: 9px 1px;
+        margin-left: 30px;
+        cursor: default;
+    }
+
+.Js_boxOff {
+    background: #dddddd;
+    border: #cccccc 1px solid;
+    border-radius: 5px;
+    float: left;
+    width: 75px;
+    height: 55px;
+    margin: 6px 8px 0px 0px;
+    cursor: default;
+}
+
+.Js_number {
+    color: #666666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.Js_value {
+    float: right;
+    color: #ff0000;
+    font-size: 24px;
+}
+
+.Js_center {
+    position: absolute;
+    width: 770px;
+    top: 20%;
+}
+
+.Js_now2 {
+    width: 180px;
+    height: 238px;
+    max-height: 238px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.Js_row_T {
+    background-color: #f3f3f3;
+    border-bottom: 1px #cccccc solid;
+    margin-left: 1px;
+    width: 199px;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+    color: #0073de;
+    text-align: center;
+}
+
+.inputArea {
+    width: 610px !important;
+    height: 150px !important;
+    margin: 7px 10px 5px 10px;
+    float: left;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none;
+    resize: none;
+}
+
+.inputArea.id {
+    width: 599px !important;
+}
+
+.btn_Box {
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.Js_clear, .Js_addmenu {
+    display: block;
+    width: 130px;
+    height: 35px;
+    margin-right: 4px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #898989;
+    color: #fff;
+    font-size: 15px;
+}
+
+    .Js_clear:hover, .Js_addmenu:hover {
+        background-color: #bdbdbd;
+    }
+
+.Js_addmenu {
+    margin-top: 8px;
+    }
+
+    .Js_addmenu.addList {
+        background-color: #336aab;
+    }
+
+        .Js_addmenu.addList:hover {
+            background-color: #499cff;
+        }
+
+.btn_Box p {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+
+.Input_notice {
+    margin-left: 10px;
+    font-size: 16px;
+    width: 610px;
+    color: #000;
+}
+
+.btn_notice {
+    float: right;
+    margin-top: 2px;
+    color: #106eb6;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    .btn_notice:hover {
+        color: #31a5fe;
+    }
+
+.dataBox {
+    width: 530px;
+    height: 110px;
+    border: 1px solid #c4c4c4;
+    margin-top: 26px;
+    margin-left: 5px;
+    background-color: #fff;
+}
+
+    .dataBox p {
+        margin: 5px 5px 1px 0;
+        float: right;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        background: #66a4e5;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+        .dataBox p:hover {
+            background: #008aff;
+        }
+
+    .dataBox .ay2SubTopSelected {
+        background: #008aff;
+    }
+
+.dataitem {
+    float: left;
+    margin-left: 5px;
+    width: 520px;
+    height: 33px;
+}
+
+.NoResult {
+    font-size: 25px;
+    color: #1a5688;
+    line-height: 76px;
+    font-weight: bold;
+    font-family: 微軟正黑體,Arial;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+/*背景顏色*/
+
+.bg_lightblue {
+    background: #b3d2f2;
+}
+
+.bg_gray {
+    background: #e6e6e6;
+}
+
+/*向上行距*/
+.M_top2 {
+    margin-top: 2px;
+}
+
+.M_top3 {
+    margin-top: 3px;
+}
+
+.M_top4 {
+    margin-top: 4px;
+}
+
+.M_top5 {
+    margin-top: 5px;
+}
+
+.M_top7 {
+    margin-top: 7px;
+}
+
+.M_top8 {
+    margin-top: 8px;
+}
+
+.M_top9 {
+    margin-top: 9px;
+}
+
+.M_top10 {
+    margin-top: 10px;
+}
+
+.M_top12 {
+    margin-top: 12px;
+}
+
+.M_top15 {
+    margin-top: 15px;
+}
+
+.M_top17 {
+    margin-top: 17px;
+}
+
+.M_top20 {
+    margin-top: 20px;
+}
+
+.M_top25 {
+    margin-top: 25px;
+}
+
+.M_top30 {
+    margin-top: 30px;
+}
+
+.M_top37 {
+    margin-top: 37px;
+}
+
+/*向左外距*/
+
+.M_left5 {
+    margin-left: 5px;
+}
+
+.M_left70 {
+    margin-left: 70px;
+}
+
+.M_left75 {
+    margin-left: 75px;
+}
+
+/*向右外距*/
+.M_right30 {
+    margin-right: 30px;
+}
+
+/*高度*/
+
+.ht_100 {
+    height: 100px;
+}
+
+.ht_130 {
+    height: 130px;
+}
+
+.ht_160 {
+    height: 160px;
+}
+
+.ht_200 {
+    height: 200px;
+}
+
+.ht_240 {
+    height: 240px;
+}
+
+/*寬度*/
+
+.wd_140 {
+    width: 140px;
+}
+
+/*字-顏色*/
+
+.t_white {
+    color: #fff;
+}
+
+.t_yollow {
+    color: #ece42f;
+}
+
+.t_blue {
+    color: #007eff;
+}
+
+.t_black {
+    color: #000;
+}
+
+.t_red {
+    color: #fb1c22;
+}
+
+.t_green {
+    color: #339700;
+}
+
+.lightblue_t {
+    color: #2f679a;
+}
+
+.gray_t {
+    color: #696969;
+}
+
+.t_pink {
+    color: #ffabab;
+}
+
+/*確認下注*/
+.div_demoBetAt {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    width: 280px;
+    border: 3px solid #888;
+    font-family: Arial,'微軟正黑體';
+    z-index: 10;
+}
+
+    .div_demoBetAt span {
+        padding-right: 5px;
+        /*font-weight: bold;*/
+    }
+
+.btmBorder {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #999;
+}
+
+.btmBorder01 {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #fff;
+}
+
+.betScroll {
+    overflow-y: auto;
+    height: 100px;
+}
+
+.td_kName {
+    /*font-weight: bold; */
+    padding-top: 5px;
+    letter-spacing: -1px;
+}
+
+.a_explain {
+    color: #ad0000;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+    margin: 2px 0 0 2px;
+}
+
+.keyInGuild {
+    position: absolute;
+    width: 430px;
+    height: 185px;
+    width: 412px;
+    background-color: #fff;
+    border: 4px solid #c2ccd5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 15px 15px;
+    top: 263px;
+    left: 195px;
+    z-index: 1;
+}
+
+.keyInGuildIn {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+    position: relative;
+    line-height: 23px;
+    padding-top: 15px;
+}
+
+    .keyInGuildIn p {
+        color: #ff0000;
+        margin: 0px;
+    }
+
+.keyInGuild .PopUps_title {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.PopUps_title .btn_close {
+    border: 0;
+    width: 16px;
+    height: 16px;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_close.png) no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+
+.PopUps_title .btn_close:hover {
+    opacity: 0.5;
+}
+
+.PopUps_title {
+    min-height: 40px;
+    line-height: 40px;
+    position:relative;
+}
+
+.btn_AtDown {
+    background-position: bottom;
+    color: #fff;
+}
+
+    .btn_AtDown a {
+        color: #fff;
+    }
+
+    .btn_AtDown span {
+        color: #fff;
+    }
+
+.chip_Text.icon_chip_C1, .chip_Text.icon_chip_C2 {
+    background-position-x: -4px;
+    background-position-y: -5px;
+    background-size: 52px 39px;
+}
+
+.ay2BetWrap {
+    color: #f00;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.ay2BtmWinList {
+    height: auto;
+    margin-right: 0px;
+    max-height: 264px;
+}
+
+.tb_atWinList {
+    text-align: center;
+    font-size: 14px;
+    margin: 1px 0;
+    width: 202px;
+    box-sizing: border-box;
+}
+
+.btn_ay2NumPink {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/anyTime/btn_AnyTimeBallPink.Png);
+}
+
+.btn_ay2BullPink {
+    background-image: none;
+    background-color: #e2d5d5;
+    text-shadow: none;
+    border: #eb132d 1px solid;
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.maskHint {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/bg_closeHint.png);
+    background-repeat: no-repeat;
+    background-size: 346px 190px;
+    width: 346px;
+    height: 190px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    top: 200px;
+    left: 232px;
+    padding-top: 25px;
+    z-index: 1000;
+}
+
+.btn_betConfirmNone {
+    background-color: gray;
+}
+
+    .btn_betConfirmNone:hover {
+        background-color: gray;
+    }
+
+/*關盤公告*/
+.liveAt_GameCloseNews {
+    top: 252px;
+    right: 160px;
+}
+
+    .liveAt_GameCloseNews.vn {
+        word-break: normal;
+    }
+
+.Js_periodNumber {
+    background: #fff;
+    border: #cccccc 1px solid;
+    border-radius: 3px;
+    float: right;
+    width: 65px;
+    height: 30px;
+    margin-left: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.Js_periodNumber2 {
+    background: #fff;
+    border: #cccccc 1px solid;
+    border-radius: 3px;
+    float: right;
+    width: 69px;
+    height: 30px;
+    margin-left: 8px;
+    line-height: 30px;
+    text-align: center;
+}
+
+    .Js_periodNumber a, .Js_periodNumber2 a {
+        background-size: 7px;
+        background-position: 5px -18px;
+        width: 17px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+        .Js_periodNumber a:hover, .Js_periodNumber2 a:hover {
+            opacity: 0.5;
+        }
+
+    .Js_periodNumber input, .Js_periodNumber2 input {
+        width: 30px;
+        color: #000;
+        font-size: 14px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+    }
+
+.Js_remaining {
+    float: right;
+}
+
+/*新版面所用樣式*/
+/*視窗置中*/
+.popUp_CB {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000;
+}
+
+.popUp_CB_in {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+/*各種文字顏色*/
+
+.CB_t_red {
+    color: #f00;
+}
+
+.CB_t_blue {
+    color: #3287e4;
+}
+
+.CB_t_black {
+    color: #000;
+}
+
+.CB_t_gray {
+    color: #666;
+    margin-top: 5px;
+}
+
+.CB_t_yellow {
+    color: #ffc800;
+    margin: 0 5px;
+}
+
+.CB_oddsLabel {
+    color: #999;
+}
+
+.CB_t_text3 {
+    letter-spacing: 7.5px;
+    margin-right: -7.5px;
+}
+
+.confirmBet_box {
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: rgba(0,0,0,0.5) 0 0 15px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    display: none;
+    top: 0px;
+    z-index: 105;
+    left: 345px;
+}
+
+.CB_w310 {
+    width: 310px;
+}
+
+.CB_w380 {
+    width: 380px;
+}
+
+.CB_w410 {
+    width: 410px;
+}
+
+.CB_close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+    .CB_close:hover {
+        opacity: 1;
+    }
+
+    .CB_close:before, .CB_close:after {
+        content: '';
+        width: 3px;
+        height: 17px;
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .CB_close:before {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .CB_close:after {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+.CB_T, .CB_T2, .CB_T3 {
+    background-color: #3088e2;
+    color: #fff;
+    padding: 5px 0px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+}
+
+.CB_T2 {
+    background-color: #119c59;
+}
+.CB_T3 {
+    background-color: #fd9324;
+}
+
+.CB_in, .CB_in2 {
+    border-radius: 0 0 5px 5px;
+    font-size: 15px;
+}
+
+.CB_in {
+    background-color: #fff;
+}
+
+.CB_in2 {
+    background-color: #e0f7ff;
+}
+
+.CB_line {
+    border: 0;
+    border-top: 1px solid #d5d5d5;
+    margin: 0;
+}
+
+.CB_text {
+    display: table;
+    width: 100%;
+}
+
+.CB_textIn, .CB_textIn2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.CB_textIn2 {
+    height: 50px;
+}
+
+.CB_a {
+    color: #3c97e7;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn_CB, .btn_CB_noLine {
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.btn_CB {
+    padding: 15px 10px;
+}
+
+.btn_CB_cancel {
+    background-color: #919191;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 3px;
+    width: 125px;
+    margin: 0 3px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn_CB_confirm {
+    background-color: #427fd0;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 3px;
+    width: 125px;
+    margin: 0 3px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn_CB_confirmNone {
+    background-color: #aaa;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 3px;
+    width: 125px;
+    margin: 0 3px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn_CB_confirm:hover {
+    background-color: #5694e6;
+}
+
+.btn_CB_confirmNone:hover {
+    background: #aaa;
+}
+
+.btn_CB_cancel:hover {
+    background-color: #bbb;
+}
+
+.CB_betList_box, .CB_betList_box2 {
+    max-height: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 0 5px 0;
+    box-sizing: border-box;
+}
+.CB_betList_box2 {
+    max-height: 100px;
+}
+.CB_betList_box_NoScroll {
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.CB_betList_T {
+    color: #666;
+    display: block;
+    padding: 10px 20px;
+}
+
+.CB_betList_in, .CB_betList_in2 {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+}
+    .CB_betList_in li {
+        padding-bottom: 10px;
+    }
+
+.CB_betInfo {
+    margin: 0;
+    padding: 11px 20px;
+    list-style: none;
+    color: #666;
+}
+
+    .CB_betInfo li:not(:last-child) {
+        padding-bottom: 5px;
+    }
+
+.CB_total {
+    color: #000;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.btn_explanation {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -6px 0 -3px 5px;
+    cursor: pointer;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_explanation.png) no-repeat center;
+}
+
+.CB_prompt {
+    text-align: center;
+    padding: 11px 20px;
+}
+
+.CB_t210 {
+    top: 210px;
+}
+
+/*------直選快速 Start---------------------------------*/
+.PopUps {
+    background-color: #fff;
+    border: 4px solid #c2ccd5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 15px 15px;
+    position: absolute;
+    top: 80px;
+    left: 52px;
+}
+
+.bg_colorLR {
+    background-color: #feb2b2;
+}
+
+.keyInput {
+    margin-top: 10px;
+    float: left;
+}
+
+    .keyInput span {
+        color: #000;
+        font-size: 16px;
+        line-height: 28px;
+        display: inline-block;
+        letter-spacing: 0;
+        float: left;
+    }
+
+    .keyInput input {
+        width: 65px;
+        height: 26px;
+        border: 1px solid #ccc;
+        padding: 0 5px;
+        border-radius: 3px;
+        margin: 1px 0;
+        float: left;
+        margin-right: 6px;
+    }
+
+.keyInput_Btn {
+    width: 48px;
+    height: 26px;
+    line-height: 28px;
+    border-radius: 3px;
+    margin-top: 2px;
+    background-color: #00b2b9;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+
+    .keyInput_Btn:hover {
+        background-color: #00c5cc;
+    }
+
+.PopUps_title {
+    min-height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+}
+/*------直選快速 End---------------------------------*/
+
+/*-------影片 start----------------------------------*/
+#divResult {
+    display: inline-block;
+    float: left;
+}
+
+.yellow {
+    color: #FF3;
+}
+
+.presultBox {float: left; display: none;}
+
+.Pk_period {
+    float: left;
+    width: 427px;
+    height: 280px;
+	color: #000;
+}
+.Pk_period table, .Pk_Presult table, .PeriodBox table {
+	vertical-align: middle;
+	border-collapse: collapse;
+    border-spacing: 0;
+	text-align: center;
+}
+.Pk_period table tr {
+	background-color:#f3f3f3;
+}
+.PeriodBox table tr {
+	background-color:#dbdbdb;
+}
+.Pk_period table tr:nth-child(odd) {
+	background-color: #fff;
+}
+.PeriodBox table tr:nth-child(odd) {
+	background-color: #f3f3f3;
+}
+.Pk_period table td {
+	border-right: 1px solid #fff;
+	text-align: center!important;
+	box-sizing: border-box;
+	height: 28px;
+	border-bottom: 1px solid #fff;
+}
+
+.Pk_period table td:nth-child(1) {
+	font-size: 15px;
+	width: 70px;
+}
+
+.drawResults {
+	display: inline-block;
+	margin-top: 1px;
+}
+
+.drawResults img {
+	margin-bottom: -5px;
+	height: 22px;
+	width: 100%;
+}
+
+.Pk_period span {
+	height: 20px;
+	line-height: 20px;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+.t_bule01 {
+	color: #106eb6;
+	font-weight: bold;
+}
+.t_bule02 {
+	color: #fff;
+	padding: 0 4px;
+	background-color: #106eb6;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.gap {
+	display: inline-block;
+	width: 8px;
+	text-align: center;
+	margin-right: 4px;
+	position: relative;
+	top: -1px;
+}
+
+.gap2 {
+	display: inline-block;
+	width: 8px;
+	text-align: center;
+	position: relative;
+	top: -2px;
+}
+
+.Pk_Presult {
+	float: left;
+	width: 222px;
+	height: 280px;
+	border-right: 1px solid #fff;
+	font-size: 15px;
+}
+.PeriodBox {
+	float: left;
+	width: 150px;
+	height: 280px;
+	font-size: 15px;
+}
+
+.Pk_Presult table tr {
+	background-color: #86bbf2;
+	cursor: pointer;
+}
+.Pk_Presult table tr:nth-child(odd) {
+	background-color: #b9d6f5;
+}
+.Pk_Presult table tr:hover {
+    background-color: #106eb6;
+    color:white;
+}
+
+.PeriodBox table tr {
+	cursor: pointer;
+}
+.PeriodBox table tr:hover {
+	background-color: #cedff2;
+}
+
+.Pk_Presult table td, .PeriodBox table td {
+	text-align: center!important;
+	height: 28px;
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.Pk_Presult table td:nth-child(2) {
+	border-left: 1px solid #fff;
+}
+
+.Pk_Presult .Now td {
+	background-color: #106eb6;
+	color: #fff;
+	font-weight: bold;
+}
+
+.PeriodBox .Now2 td {
+	color: #fff;
+	font-weight: bold;
+	background: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/btn_arrowL.svg) no-repeat center left 20px #106eb6;
+}
+
+.SelectBar {
+    width: 660px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}
+
+    .SelectBar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .SelectBar ul li {
+            float: left;
+            padding: 0 6px;
+            cursor: pointer;
+        }
+
+        .SelectBar.id ul li {
+            padding: 0 5px;
+        }
+
+            .SelectBar ul li input {
+                cursor: pointer;
+            }
+
+.SelectBar_title {
+    margin: 0 5px;
+}
+
+.btn_number {
+    margin-top: 13px;
+    margin-left: 5px;
+    float: left;
+}
+
+.text_number {
+    float: left;
+    margin-left: 5px;
+}
+
+.text_opt {
+    width: 46px;
+    line-height: 22px;
+    background-color: #fff;
+    margin-top: 9px;
+    text-align: center;
+    border-radius: 22px;
+    float: left;
+    border: 1px #ccc solid;
+    box-sizing: border-box;
+    position: relative;
+}
+
+    .text_opt.on {
+        background-color: #d3e9ff;
+        border-color: #b3d1f2;
+    }
+
+.text_redCicle {
+    position: absolute;
+    width: 28px;
+    line-height: 16px;
+    background-color: #ff0005;
+    color: #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+    top: -7px;
+    right: -11px;
+    font-size: 12px;
+}
+
+.bar_line {
+    padding: 0 !important;
+    margin-top: 10px;
+    width: 1px;
+    height: 18px;
+    background-color: #bbbbbb;
+}
+
+.SelectList {
+    width: 450px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    background-color: #fff;
+    float: left;
+}
+
+    .SelectList td {
+        border: 1px solid #bbbbbb;
+        text-align: center;
+        width: unset;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+        .SelectList td input {
+            cursor: pointer;
+        }
+
+        .SelectList td:hover {
+            background-color: #feb2b2;
+        }
+
+        #divGeneralLayout .SelectList tr:first-child td, #divGeneralLayout .SelectList td:first-child {
+            background-color: #e5e5e5;
+        }
+
+.FunctionBar {
+    width: 209px;
+    height: 441px;
+    float: left;
+    background-color: #b3d2f1;
+}
+
+    .FunctionBar ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .FunctionBar ul li {
+            height: 38px;
+            padding: 5px 0;
+            border-top: 1px solid #eaf4fe;
+            border-bottom: 1px solid #7d9fc5;
+        }
+
+    .FunctionBar.h31 ul li {
+        height: 31px;
+    }
+
+     .FunctionBar.h38 ul li {
+        height: 38px;
+    }
+
+    .FunctionBar ul li:first-child {
+        border-top: 0;
+    }
+
+    .FunctionBar ul li:last-child {
+        border-bottom: 0;
+    }
+
+    .FunctionBar ul li:nth-last-child(2){
+        height: 35px;
+    }
+
+.Function_title {
+    width: 67px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.importBox {
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding: 0 5px;
+    float: right;
+    font-weight: bold;
+}
+
+    .importBox.amtFocus {
+        border: #ffc938 2px solid;
+    }
+
+.Function_value {
+    float: right;
+    margin: 9px 10px 0;
+    text-align: center;
+    color: #fe0000;
+    width: 25px;
+}
+
+.SelectResult {
+    margin: 0 0 8px 10px;
+}
+
+.btn_wrap {
+    width: 174px;
+    padding: 0px 17px;
+}
+
+    .btn_wrap.vn {
+        width: 191px;
+        padding: 0px 9px;
+    }
+
+    .btn_wrap .Js_cancel {
+        width: 72px;
+        height: 32px;
+    }
+
+    .btn_wrap .Js_confirm {
+        width: 92px;
+        height: 32px;
+    }
+
+    .btn_wrap.vn .Js_confirm {
+        width: 110px;
+    }
+
+    .btn_wrap input {
+        border-radius: 3px;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.colorDblue {
+    color: #1110ff;
+}
+
+.PopUps_content02 {
+    width: 661px;
+    margin-top: 10px;
+}
+
+.FunctionBar02_title {
+    float: left;
+    width: 260px;
+    height: 40px;
+    background-color: #b3d2f1;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+    .FunctionBar02_title ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .FunctionBar02_title ul li {
+            float: left;
+            width: 33.333%;
+            cursor: pointer;
+        }
+
+            .FunctionBar02_title ul li span {
+                display: table;
+                padding: 5% 8%;
+                margin: 5px auto 0;
+            }
+
+            .FunctionBar02_title ul li .on {
+                color: #0084ff;
+                background-color: #fff;
+                border-radius: 3px;
+            }
+
+.FunctionBar02 {
+    width: 260px;
+    height: 245px !important;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.FunctionBar03 {
+    width: 265px;
+    height: 244px !important;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+    .FunctionBar02 ul,.FunctionBar03 ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .FunctionBar02 ul li,.FunctionBar03 ul li {
+            height: 35px;
+            padding: 5px 0;
+            border-bottom: 1px solid #bbbbbb;
+            position: relative;
+        }
+
+.SelectList02 {
+    width: 401px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    background-color: #fff;
+    float: left;
+}
+
+    .SelectList02 td {
+        border: 1px solid #bbbbbb;
+        text-align: center;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+.bet_Odds {
+    position: absolute;
+    bottom: 11px;
+    right: 84px;
+    color: rgb(193,39,45);
+    background-color: #fff;
+    border: 1px solid #bbbbbb;
+    padding: 1% 2.5%;
+    font-size: 14px;
+    display: none;
+}
+
+.Function02_title {
+    width: 150px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: #fe0000;
+}
+
+    .Function02_title .bet {
+        float: left;
+        width: 95px;
+        font-size: 14px;
+        color: #0078ff;
+    }
+
+    .Function02_title .oddsLabel {
+        padding-right: 2px;
+    }
+
+.importBox02 {
+    width: 77px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 0 5px;
+    float: right;
+    font-weight: bold;
+}
+
+    .importBox02.amtFocus {
+        border: #ffc938 2px solid;
+    }
+
+.FunctionBar02_bot {
+    float: left;
+    background-color: #b3d2f1;
+    width: 260px;
+    height: 115px;
+    font-size: 15px;
+}
+
+.SelectResult02 {
+    margin-top: 3px;
+    padding: 0 10px;
+}
+
+.importWrapL {
+    display: table;
+    float: left;
+    line-height: 35px;
+}
+
+.importWrapR {
+    display: table;
+    float: right;
+    line-height: 35px;
+    margin-right: 12px;
+}
+
+.btn_wrap02 {
+    display: table;
+    width: 174px;
+    padding: 0px 43px;
+}
+
+    .btn_wrap02.vn {
+        width: 191px;
+        padding: 0px 34px;
+    }
+
+    .btn_wrap02 .Js_cancel {
+        width: 72px;
+        height: 32px;
+    }
+
+    .btn_wrap02 .Js_confirm {
+        width: 92px;
+        height: 32px;
+    }
+
+    .btn_wrap02.vn .Js_confirm {
+        width: 110px;
+    }
+
+    .btn_wrap02 input {
+        border-radius: 3px;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.importBox02.bet {
+    margin-left: 5px;
+    width: 65px;
+}
+
+    .importBox02.bet.amtFocus {
+        border: #ffc938 2px solid;
+    }
+
+.btn_closeG {
+    float: right;
+    width: 18px;
+    height: 18px;
+    margin: 8px 5px 3px 5px;
+    cursor: pointer;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/longBet/btn_close.png) no-repeat;
+}
+
+.maskFastParley {
+    border-radius: 10px;
+    width: 699px;
+    height: 491px;
+    position: absolute;
+    top: 80px;
+    left: 52px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 103;
+}
+
+/*過關快速 end*/
+
+
+/*六合彩球籌碼彈窗 Start------------------------------------------*/
+.LtBallListChip {
+    display: none;
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.3) 0px 0px 10px;
+    top: -61px;
+    left: 0;
+    border: 4px solid #c5cdd9;
+    padding: 5px;
+    z-index: 999;
+}
+
+    .LtBallListChip div {
+        background-size: 38px 29px;
+        width: 38px;
+        height: 29px;
+        float: left;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+        .LtBallListChip div:hover {
+            margin-top: 3px;
+        }
+/*六合彩球籌碼彈窗 End------------------------------------------*/
+
+.div_closeHint {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/bg_closeHint.png);
+    background-repeat: no-repeat;
+    background-size: 346px 190px;
+    width: 346px;
+    height: 190px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    top: 250px;
+    left: 350px;
+    padding-top: 50px;
+    z-index: 1000;
+}
+
+.CB_betList_pass {
+    line-height: 18px;
+    padding: 8px 0;
+    margin-left: 20px;
+}
+
+.drawResults.drawing {
+	margin-bottom: -5px;
+	height: 22px;
+}
+
+/**越南18的動畫樣式-開始*/
+#divNum18_17.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/s.gif);
+    width: 61px;
+}
+#divNum18_16.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/01.gif);
+    width: 51px;
+}
+#divNum18_15.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/02.gif);
+    width: 51px;
+}
+#divNum18_14.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-1.gif);
+    width: 51px;
+}
+#divNum18_13.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03.gif);
+    width: 51px;
+}
+#divNum18_12.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-6.gif);
+    width: 51px;
+}
+#divNum18_11.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-5.gif);
+    width: 51px;
+}
+#divNum18_10.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-4.gif);
+    width: 51px;
+}
+#divNum18_9.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-3.gif);
+    width: 51px;
+}
+#divNum18_8.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-2.gif);
+    width: 51px;
+}
+#divNum18_7.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-1.gif);
+    width: 51px;
+}
+#divNum18_6.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04.gif);
+    width: 51px;
+}
+#divNum18_5.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05.gif);
+    width: 42px;
+}
+#divNum18_4.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06-2.gif);
+    width: 42px;
+}
+#divNum18_3.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06-1.gif);
+    width: 42px;
+}
+#divNum18_2.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06.gif);
+    width: 42px;
+}
+#divNum18_1.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/07.gif);
+    width: 29px;
+}
+#divNum18_0.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/08.gif);
+    width: 19px;
+}
+/**越南18的動畫樣式-結束*/
+/**越南27的動畫樣式-開始*/
+#divNum27_26.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/s.gif);
+    width: 51px;
+}
+#divNum27_25.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/01.gif);
+    width: 51px;
+}
+#divNum27_24.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/02.gif);
+    width: 51px;
+}
+#divNum27_23.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/02-1.gif);
+    width: 51px;
+}
+#divNum27_22.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03.gif);
+    width: 51px;
+}
+#divNum27_21.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-1.gif);
+    width: 51px;
+}
+#divNum27_20.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-2.gif);
+    width: 51px;
+}
+#divNum27_19.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-3.gif);
+    width: 51px;
+}
+#divNum27_18.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-4.gif);
+    width: 51px;
+}
+#divNum27_17.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/03-5.gif);
+    width: 51px;
+}
+#divNum27_16.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04.gif);
+    width: 42px;
+}
+#divNum27_15.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-1.gif);
+    width: 42px;
+}
+#divNum27_14.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-2.gif);
+    width: 42px;
+}
+#divNum27_13.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/04-3.gif);
+    width: 42px;
+}
+#divNum27_12.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05.gif);
+    width: 42px;
+}
+#divNum27_11.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05-1.gif);
+    width: 42px;
+}
+#divNum27_10.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05-2.gif);
+    width: 42px;
+}
+#divNum27_9.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05-3.gif);
+    width: 42px;
+}
+#divNum27_8.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05-4.gif);
+    width: 42px;
+}
+#divNum27_7.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/05-5.gif);
+    width: 42px;
+}
+#divNum27_6.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06.gif);
+    width: 29px;
+}
+#divNum27_5.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06-1.gif);
+    width: 29px;
+}
+#divNum27_4.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/06-2.gif);
+    width: 29px;
+}
+#divNum27_3.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/07.gif);
+    width: 19px;
+}
+#divNum27_2.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/07-1.gif);
+    width: 19px;
+}
+#divNum27_1.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/07-2.gif);
+    width: 19px;
+}
+#divNum27_0.drawing {
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/vnLottoElec/PC/07-3.gif);
+    width: 19px;
+}
+/**越南27的動畫樣式-結束*/
+
+.maskGeneral {
+    width: 698px;
+    height: 581px;
+    position: absolute;
+    top: 80px;
+    left: 52px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 103;
+}
+
+#txbAmt::-webkit-input-placeholder { /* Chrome, Safari */
+  font-size: 12px;
+}
+
+#txbAmt::-moz-placeholder { /* Firefox 19+ */
+    font-size: 12px;
+}
+
+.CB_loading {
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.CB_prompt2 {
+    font-size: 18px;
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+    padding: 10px 0px 5px 0px;
+}
+
+#divDelGid_Fast {
+    max-height: 85px;
+}
+
+/*--開始下注提示--*/
+.prompt_T {
+    display: none;
+    font-size: 1.4em;
+    width: 420px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/common/bg_blackGradient.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    font-weight: bold;
+    color: #ffd200;
+    margin: 0 26%;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    left: -33px;
+    top: 362px;
+    padding: 5px 0;
+}
+
+.AT_GameCloseNews {
+    top:216px;
+    right:126px;
+}
+
+/*多期投注規則說明-----start--------*/
+.PopUps_rule {
+    width: 412px;
+    background-color: #fff;
+    border: 4px solid #c2ccd5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 15px 15px;
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: 190px;
+    z-index: 106;
+}
+
+    .PopUps_rule .PopUps_title {
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        position: initial;
+        min-height: 40px;
+    }
+
+    .PopUps_rule.vn .PopUps_title {
+        font-size: 19px;
+    }
+
+    .PopUps_rule .btn_close {
+        border: 0;
+        width: 16px;
+        height: 16px;
+        background: url(https://kuvn-cf.nsb777.net/images/graph/common/btn_close.png) no-repeat;
+        background-size: 80%;
+        cursor: pointer;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+    }
+
+        .PopUps_rule .btn_close:hover {
+            opacity: 0.5;
+        }
+
+.ruleBox {
+    width: 342px;
+    margin: 35px 10px 20px;
+}
+
+.rule_title {
+    display: block;
+    color: #0690f5;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rule_contain {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+    .rule_contain li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+.PopUps_rule.vn .rule_contain:nth-child(2) {
+    list-style-type: none;
+    padding-left: 6px;
+}
+
+.PopUps_rule.th .rule_contain li {
+    font-size: 13px;
+}
+/*多期投注規則說明-----end--------*/
+
+/*多選不中*/
+.PopUps_content02.Multiple_Choices {
+    width: 669px;
+}
+
+    .PopUps_content02.Multiple_Choices .importBox02 {
+        width: 73px;
+        padding: 0 3px;
+    }
+
+        .PopUps_content02.Multiple_Choices .importBox02.amtFocus {
+            border: #ffc938 2px solid;
+        }
+
+.FunctionBar02_title.Multiple_Choices {
+    float: none;
+    width: 668px;
+    height: 38px;
+    margin-top: 11px;
+}
+
+    .FunctionBar02_title.Multiple_Choices ul li {
+        float: left;
+        width: 14.2%;
+        cursor:auto;
+    }
+
+        .FunctionBar02_title.Multiple_Choices ul li span {
+            display: table;
+            padding: 5% 8%;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+.FunctionBar02.Multiple_Choices {
+    width: 266px;
+    height: 285px !important;
+    border-top: 1px solid #bbbbbb;
+}
+
+        .FunctionBar02.Multiple_Choices .FunctionBar02 .Function02_title,.FunctionBar03.Multiple_Choices .FunctionBar03 .Function02_title {
+            width: 155px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+            height: 32px;
+        }
+
+            .FunctionBar02.Multiple_Choices .FunctionBar02 .Function02_title .bet,.FunctionBar03.Multiple_Choices .FunctionBar03 .Function02_title .bet {
+                width: 100px;
+                display: inline-block;
+                margin: 0px 5px 0px 10px;
+                word-wrap: break-word;
+            }
+
+            .FunctionBar02.Multiple_Choices .FunctionBar02 .Function02_title.ChooseLine span:nth-child(2),.FunctionBar03.Multiple_Choices .FunctionBar03 .Function02_title.ChooseLine span:nth-child(2) {
+                margin-top: 3px;
+            }
+
+.FunctionBar02_bot.Multiple_Choices {
+    width: 266px;
+    height: 115px;
+}
+
+    .FunctionBar02_bot.Multiple_Choices .importBox02.bet, .FunctionBar02_bot.Multiple_Choices .Js_periodNumber {
+        width: 75px;
+    }
+
+        .FunctionBar02_bot.Multiple_Choices .importBox02.bet.amtFocus {
+            border: #ffc938 2px solid;
+        }
+
+    .importBox02.bet.vn, .importBox02.bet.th{
+        width:70px !important;
+    }
+
+    .FunctionBar02_bot.Multiple_Choices .btn_wrap02 {
+        margin: auto;
+    }
+
+.maskFastMulti {
+    border-radius: 10px;
+    width: 707px;
+    height: 540px;
+    position: absolute;
+    top: 80px;
+    left: 46px;
+    background-image: url(https://kuvn-cf.nsb777.net/images/graph/lottery/bg_cover.png);
+    z-index: 103;
+}
+
+#divGeneralLayout .btn_close {
+    display: none;
+    position: relative;
+    top: 6px;
+    right: -88px;
+    margin: auto;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/icon_closeBank.svg)#fff no-repeat center;
+    background-size: 75%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.PopUps_content02 .btn_close, #aClearFastParleyAmtSync.btn_close, #aClearMultiAmtSync.btn_close,#aClearSingleParleyAmtSync.btn_close,#aClearSingleMultiAmtSync.btn_close {
+    display: none;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    margin: auto;
+    background: url(https://kuvn-cf.nsb777.net/images/graph/common/icon_closeBank.svg)#fff no-repeat center;
+    background-size: 75%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#aClearFastParleyAmtSync.btn_close {
+    top: 362px;
+    right: 122px;
+}
+
+#aClearSingleParleyAmtSync.btn_close{
+    top: 362px;
+    right: 122px;
+}
+
+    #aClearFastParleyAmtSync.btn_close.id,
+    #aClearSingleParleyAmtSync.btn_close.id {
+        right: 132px;
+    }
+
+#aClearSingleMultiAmtSync.btn_close {
+    top: 371px;
+    right: 120px;
+}
+
+#aClearMultiAmtSync.btn_close {
+    top: 412px;
+    right: 120px;
+}
+
+    #aClearMultiAmtSync.btn_close.id,
+    #aClearSingleMultiAmtSync.btn_close.id {
+        right: 130px;
+    }
+
+.SelectListSingle, .SelectListSingleMulti {
+    width: 401px;
+    background-color: #fff;
+    float: left;
+}
+
+    .SelectListSingle .inputArea, .SelectListSingleMulti .inputArea{
+        width: 401px!important;
+        height: 348px!important;
+        margin: 0;
+        border-bottom: 0;
+    }
+
+    .SelectListSingleMulti .inputArea{
+        width: 401px!important;
+        height: 307px!important;
+        margin: 0;
+        border-bottom: 0;
+    }
+
+.Singlebtn_Box {
+    width: 389px;
+    height: 42px;
+    padding: 5px;
+    background-color: #efefef;
+    float: left;
+    border: 1px solid #c4c4c4;
+    border-top: 0;
+}
+
+    .Singlebtn_Box .btn_Box {
+        margin: 0;
+    }
+
+        .Singlebtn_Box .btn_Box .Js_clear, .Singlebtn_Box .btn_Box .Js_addmenu {
+            width: 85px;
+            display: inline-block;
+            margin-right: 0;
+        }
+
+        .Singlebtn_Box .btn_Box .Js_addmenu {
+            margin-top: 4px;
+        }
+
+.border_top{
+    border-top:1px solid #c4c4c4;
+}
+
+.result_show {
+    float: left;
+    padding-top: 10px;
+}
+
+    .result_show p {
+        float: left;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .result_show img {
+        float: right;
+        margin-left: 10px;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+
+        .result_show img:hover {
+            opacity: 0.8;
+        }
+
+#divPopUp_FastCombine{
+    top: 146px;
+    left: 155px;
+}
+
+.Js_cancel_fast {
+    background: #898989;
+    float: right;
+    width: 75px;
+    height: 28px;
+    border-radius: 3px;
+    color: #fff;
+    margin: 10px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .Js_cancel_fast:hover {
+        background: #aaaaaa;
+    }
+
+.chipWraps.hover .allChipBox {
+    display: block;
+}
+
+.chipWraps.hover .chip_close {
+    background: url(https://kuvn-cf.nsb777.net/images/graph/main/icon_arrowUp.png) no-repeat bottom;
+}
